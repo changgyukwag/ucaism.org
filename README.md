@@ -1,3 +1,3 @@
-# UCAISM.org Phase C-3
+# UCAISM.org Phase C-4
 
-Research Center expansion: featured research, series, and research agenda.
+Publications Center: books, foundation papers, working papers, policy briefs, citations, and download-ready structure.
