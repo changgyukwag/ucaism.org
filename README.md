@@ -1,3 +1,3 @@
-# UCAISM.org Phase C-4.1
+# UCAISM.org Phase C-5
 
-Publications Center layout fix: constrained publication cover images and rebuilt publication cards.
+Author profile and Intelligent Capitalism pages; homepage and publications integration.
