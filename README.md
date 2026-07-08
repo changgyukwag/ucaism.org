@@ -1,3 +1,3 @@
-# UCAISM.org 3.0 Phase B Step 1
+# UCAISM.org Phase C-1
 
-Homepage upgrade with visible book-cover hero.
+Header logo, favicon, primary logo identity system.
