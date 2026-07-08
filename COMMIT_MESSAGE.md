@@ -1,14 +1,13 @@
-# Commit Summary
+Commit Summary
 
-Add Phase F-5 lightweight performance cleanup
+Add Phase F-6 site QA and deployment verification
 
-# Commit Description
+Commit Description
 
-- Added a lightweight performance cleanup layer for UCAISM.org after the Phase D/E/F expansion.
-- Added guidance for CSS governance, JavaScript loading, image optimization, metadata discipline, and GitHub Pages static-site simplicity.
-- Added a script loading cleanup map to separate public page scripts from QA-only health-check scripts.
-- Added an image optimization checklist for future diagrams, book covers, social cards, and media assets.
-- Added CSS cleanup notes to reduce duplication risk without breaking the existing design system.
-- Added structured performance cleanup data for future maintenance and QA.
-- Added an optional browser-console lightweight performance audit helper for local review.
+- Added the final Phase F site QA and deployment verification layer for UCAISM.org.
+- Added a deployment verification guide for checking the expanded global research platform after GitHub Pages push.
+- Added URL, GitHub Pages, live-site, metadata, performance, mobile, and editorial credibility QA checklists.
+- Added a Phase F completion note to shift the project from expansion mode to stabilization and maintenance mode.
+- Added structured QA data for future release review and maintenance.
+- Added an optional browser-console site QA helper for local page-level validation.
 - Preserved LF line-ending normalization through .gitattributes.

@@ -1,0 +1,32 @@
+{
+  "phase": "F-6",
+  "title": "Site QA and Deployment Verification",
+  "priority_urls": [
+    "/",
+    "/research-library/",
+    "/foundation-papers/",
+    "/policy-briefs/",
+    "/working-papers/",
+    "/media-kit/",
+    "/citation-center/",
+    "/news-insights/",
+    "/newsletter/",
+    "/events/",
+    "/global-community/",
+    "/ko/",
+    "/ja/",
+    "/es/",
+    "/robots.txt",
+    "/sitemap.xml"
+  ],
+  "checks": [
+    "deployment",
+    "navigation",
+    "metadata",
+    "performance",
+    "mobile",
+    "editorial credibility",
+    "console errors",
+    "broken links"
+  ]
+}

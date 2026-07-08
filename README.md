@@ -1,14 +1,19 @@
-# UCAISM.org — Phase F-5 Lightweight Performance Cleanup
+# UCAISM.org — Phase F-6 Site QA and Deployment Verification
 
-This package adds performance cleanup guidance and optional QA tooling for UCAISM.org after the Phase D/E/F expansion.
+This package adds the final Phase F deployment verification layer for UCAISM.org.
 
-## Install
+## Files included
 
-1. Copy the contents of this folder into the root of the existing `ucaism.org` GitHub Pages repository.
-2. Overwrite matching files only when prompted.
-3. Do not delete existing HTML pages.
-4. Commit and push using the provided commit message.
+- `docs/site-qa-deployment-verification-guide.md`
+- `docs/deployment-url-checklist.md`
+- `docs/github-pages-deployment-checklist.md`
+- `docs/final-live-site-qa-checklist.md`
+- `docs/phase-f-completion-note.md`
+- `data/site-qa-deployment-verification.json`
+- `assets/js/site-qa-deployment-check.js`
+- `.gitattributes`
+- `COMMIT_MESSAGE.md`
 
-## Important note
+## Installation
 
-This phase does not aggressively rewrite existing pages. It provides a safe cleanup framework so the site remains fast, maintainable, and stable before deeper manual optimization.
+Copy the contents of this folder into the root of the existing `ucaism.org` repository. Do not delete existing production pages. Commit and push through GitHub Desktop.
