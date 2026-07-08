@@ -1,26 +1,23 @@
-# UCAISM.org Phase D-5 — Media Kit
+# UCAISM.org Phase D-6 — Citation Center
 
-This package adds a dedicated Media Kit page to the UCAISM.org GitHub Pages site.
+This package adds a dedicated Citation Center to UCAISM.org.
 
-## Files included
+## Installation
 
-- `media-kit/index.html`
-- `assets/css/phase-d-research.css`
-- `assets/js/media-kit.js`
-- `data/media-kit.json`
-- `.gitattributes`
-- `docs/navigation-integration-snippet.html`
-- `COMMIT_MESSAGE.md`
-
-## Install
-
-1. Copy the contents of this folder into the root of the existing `ucaism.org` repository.
-2. Overwrite matching files when prompted.
-3. Do not delete existing site files.
-4. Confirm that `.gitattributes` remains at the repository root.
-5. Review changes in GitHub Desktop.
-6. Commit and push.
+1. Unzip the package.
+2. Copy all files and folders into the root of the existing `ucaism.org` GitHub Pages repository.
+3. Overwrite files with the same names when prompted.
+4. Do not delete existing site files.
+5. Confirm that `.gitattributes` remains in the repository root.
+6. Review changes in GitHub Desktop.
+7. Commit and push.
 
 ## Test URL
 
-https://ucaism.org/media-kit/
+https://ucaism.org/citation-center/
+
+## Notes
+
+- This is an additive Phase D expansion.
+- It preserves the existing GitHub Pages static-site structure.
+- It keeps LF line-ending normalization through `.gitattributes`.

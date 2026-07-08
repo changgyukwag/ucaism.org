@@ -1,11 +1,14 @@
-Commit Summary:
-Add Phase D-5 Media Kit
+# Commit Summary
 
-Commit Description:
-- Added a dedicated Media Kit page for the UCAISM.org global research and author platform.
-- Created a professional press-resource layer for journalists, editors, event organizers, podcasts, universities, and research institutions.
-- Added institutional profile, author profile, book overview, core messages, suggested interview topics, and media download categories.
-- Extended the Phase D research stylesheet with additive Media Kit components while preserving the existing design system.
-- Added structured seed data for future media assets, downloadable PDFs, approved images, brand files, and press resources.
-- Preserved GitHub Pages compatibility and LF line-ending normalization through .gitattributes.
-- Included an optional navigation snippet for safely adding Media Kit to the site menu.
+Add Phase D-6 Citation Center
+
+# Commit Description
+
+- Added a dedicated Citation Center for the UCAISM.org global research platform.
+- Created official citation guidance for books, forthcoming works, foundation papers, policy briefs, working papers, and institutional website references.
+- Added Chicago-style, APA-style, and suggested citation templates for core UCAISM materials.
+- Added static search and filtering by citation type while preserving GitHub Pages compatibility.
+- Extended the Phase D research stylesheet with additive Citation Center components and LF line endings.
+- Added structured seed data for future BibTeX, RIS, DOI, ISBN, PDF, and publication metadata integration.
+- Preserved line-ending normalization through `.gitattributes`.
+- Included an optional navigation snippet for safely adding Citation Center to the site menu.

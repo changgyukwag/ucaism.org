@@ -1,0 +1,46 @@
+{
+  "collection": "Citation Center",
+  "version": "Phase D-6",
+  "institution": "UCAISM Global Initiative",
+  "preferredInstitutionalName": "UCAISM Global Initiative",
+  "preferredAuthorName": "Chang-Gyu Kwag",
+  "items": [
+    {
+      "id": "book-open-wins",
+      "type": "book",
+      "title": "Open Wins: The New Enlightenment",
+      "author": "Chang-Gyu Kwag",
+      "year": "2026",
+      "status": "current",
+      "chicago": "Kwag, Chang-Gyu. Open Wins: The New Enlightenment. UCAISM Global Initiative, 2026.",
+      "apa": "Kwag, C.-G. (2026). Open Wins: The New Enlightenment. UCAISM Global Initiative."
+    },
+    {
+      "id": "book-intelligent-capitalism",
+      "type": "book-project",
+      "title": "Intelligent Capitalism: The UCAISM Revolution and the Rise of Individual Sovereignty",
+      "author": "Chang-Gyu Kwag",
+      "status": "forthcoming",
+      "chicago": "Kwag, Chang-Gyu. Intelligent Capitalism: The UCAISM Revolution and the Rise of Individual Sovereignty. Forthcoming.",
+      "apa": "Kwag, C.-G. (forthcoming). Intelligent Capitalism: The UCAISM Revolution and the Rise of Individual Sovereignty."
+    },
+    {
+      "id": "foundation-template",
+      "type": "foundation-paper",
+      "series": "Foundation Paper Series",
+      "format": "UCAISM Global Initiative. Title of Foundation Paper. Foundation Paper Series, FP-XX. UCAISM.org, year."
+    },
+    {
+      "id": "policy-template",
+      "type": "policy-brief",
+      "series": "Policy Brief Series",
+      "format": "UCAISM Global Initiative. Title of Policy Brief. Policy Brief Series, PB-XX. UCAISM.org, year."
+    },
+    {
+      "id": "working-template",
+      "type": "working-paper",
+      "series": "Working Paper Series",
+      "format": "UCAISM Global Initiative. Title of Working Paper. Working Paper Series, WP-XX, version X.X. UCAISM.org, year."
+    }
+  ]
+}
