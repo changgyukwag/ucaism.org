@@ -1,0 +1,78 @@
+{
+  "site": {
+    "name": "UCAISM Global Initiative",
+    "url": "https://ucaism.org",
+    "defaultTitle": "UCAISM Global Initiative — Individual Sovereignty in the Age of AI",
+    "defaultDescription": "UCAISM Global Initiative is an independent research and public-education initiative founded by Chang-Gyu Kwag, advancing individual sovereignty, fiduciary AI, open digital infrastructure, and Intelligent Capitalism.",
+    "defaultImage": "https://ucaism.org/assets/images/ucaism-og-default.jpg",
+    "locale": "en_US"
+  },
+  "pages": [
+    {
+      "path": "/",
+      "title": "UCAISM Global Initiative — Individual Sovereignty in the Age of AI",
+      "description": "The official platform for UCAISM Global Initiative, Open Wins, Intelligent Capitalism, and the research agenda for individual sovereignty in the age of AI.",
+      "keywords": "UCAISM, individual sovereignty, AI governance, Intelligent Capitalism, Open Wins, Chang-Gyu Kwag"
+    },
+    {
+      "path": "/research-library/",
+      "title": "Research Library — UCAISM Global Initiative",
+      "description": "Browse UCAISM books, foundation papers, policy briefs, working papers, and media resources in one global research library.",
+      "keywords": "UCAISM research library, AI governance research, policy briefs, working papers, foundation papers"
+    },
+    {
+      "path": "/foundation-papers/",
+      "title": "Foundation Papers — UCAISM Global Initiative",
+      "description": "Core UCAISM foundation papers on the sovereignty gap, fiduciary AI, platform power, open rails, and Intelligent Capitalism.",
+      "keywords": "UCAISM foundation papers, sovereignty gap, fiduciary AI, platform power, Intelligent Capitalism"
+    },
+    {
+      "path": "/policy-briefs/",
+      "title": "Policy Briefs — UCAISM Global Initiative",
+      "description": "Concise UCAISM policy briefs translating research into institutional guidance for AI governance, platform reform, data sovereignty, and digital public infrastructure.",
+      "keywords": "UCAISM policy briefs, AI governance, platform reform, data sovereignty, digital public infrastructure"
+    },
+    {
+      "path": "/working-papers/",
+      "title": "Working Papers — UCAISM Global Initiative",
+      "description": "Pre-publication UCAISM working papers developing concepts, models, and institutional designs for individual sovereignty in the age of AI.",
+      "keywords": "UCAISM working papers, pre-publication research, institutional design, AI governance"
+    },
+    {
+      "path": "/media-kit/",
+      "title": "Media Kit — UCAISM Global Initiative",
+      "description": "Official media resources for UCAISM Global Initiative, Chang-Gyu Kwag, Open Wins, and Intelligent Capitalism.",
+      "keywords": "UCAISM media kit, Chang-Gyu Kwag, Open Wins, Intelligent Capitalism, press resources"
+    },
+    {
+      "path": "/citation-center/",
+      "title": "Citation Center — UCAISM Global Initiative",
+      "description": "Official citation guidance for UCAISM books, research papers, policy briefs, working papers, and institutional web pages.",
+      "keywords": "UCAISM citation, Open Wins citation, Chang-Gyu Kwag citation, research citation"
+    },
+    {
+      "path": "/news-insights/",
+      "title": "News & Insights — UCAISM Global Initiative",
+      "description": "Commentary, research updates, book news, media notes, and institutional announcements from UCAISM Global Initiative.",
+      "keywords": "UCAISM news, UCAISM insights, AI governance commentary, Open Wins news"
+    },
+    {
+      "path": "/newsletter/",
+      "title": "Newsletter — UCAISM Global Initiative",
+      "description": "Subscribe to UCAISM updates on research, policy, books, events, and individual sovereignty in the age of AI.",
+      "keywords": "UCAISM newsletter, AI governance newsletter, individual sovereignty newsletter"
+    },
+    {
+      "path": "/events/",
+      "title": "Events — UCAISM Global Initiative",
+      "description": "Lectures, seminars, book talks, policy briefings, and global dialogues from UCAISM Global Initiative.",
+      "keywords": "UCAISM events, AI governance seminar, book talk, policy briefing, global dialogue"
+    },
+    {
+      "path": "/global-community/",
+      "title": "Global Community — UCAISM Global Initiative",
+      "description": "Connect with UCAISM Global Initiative as a reader, researcher, policymaker, educator, partner, or media professional.",
+      "keywords": "UCAISM community, global research community, individual sovereignty, AI governance community"
+    }
+  ]
+}
