@@ -1,0 +1,87 @@
+{
+  "phase": "E-7",
+  "title": "Final SEO QA Pass",
+  "site": "https://ucaism.org/",
+  "purpose": "Final quality assurance checklist for SEO, structured data, social sharing, multilingual readiness, performance, search-console readiness, and post-deployment validation.",
+  "qaCategories": [
+    {
+      "id": "crawlability",
+      "label": "Crawlability",
+      "checks": [
+        "robots.txt exists at the site root",
+        "sitemap.xml exists at the site root",
+        "sitemap.xml includes the homepage and Phase D platform pages",
+        "important pages are not blocked by robots directives"
+      ]
+    },
+    {
+      "id": "metadata",
+      "label": "Core metadata",
+      "checks": [
+        "Every public page has a unique title",
+        "Every public page has a meta description",
+        "Canonical URLs use https://ucaism.org/",
+        "Author and theme-color metadata are consistent"
+      ]
+    },
+    {
+      "id": "schema",
+      "label": "Schema.org structured data",
+      "checks": [
+        "Organization or ResearchOrganization schema is valid",
+        "Person schema for Chang-Gyu Kwag is present where appropriate",
+        "Book schema for Open Wins is available",
+        "CollectionPage/WebPage schema is available for research-platform pages"
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Open Graph and Twitter Cards",
+      "checks": [
+        "og:title and og:description are present",
+        "og:image points to a valid public image",
+        "twitter:card uses summary_large_image",
+        "Social previews are consistent across main platform pages"
+      ]
+    },
+    {
+      "id": "multilingual",
+      "label": "Multilingual readiness",
+      "checks": [
+        "Language foundation pages exist for ko, ja, and es",
+        "hreflang snippets are prepared",
+        "Translation style notes are documented",
+        "Language switcher can be added without breaking the main navigation"
+      ]
+    },
+    {
+      "id": "performance",
+      "label": "Performance",
+      "checks": [
+        "Images use reasonable file sizes and dimensions",
+        "Scripts that do not need to block rendering use defer",
+        "CSS additions remain additive and do not break existing pages",
+        "Lighthouse checks are ready for post-deployment review"
+      ]
+    },
+    {
+      "id": "analytics",
+      "label": "Search and analytics readiness",
+      "checks": [
+        "Search Console setup guide is present",
+        "Analytics snippets are documented but not forced into production",
+        "Privacy-friendly analytics policy is documented",
+        "Verification metadata can be updated when real verification codes are issued"
+      ]
+    }
+  ],
+  "recommendedPostDeploymentChecks": [
+    "Open https://ucaism.org/robots.txt",
+    "Open https://ucaism.org/sitemap.xml",
+    "Open the Phase D public pages after each push",
+    "Run Google Rich Results Test on representative pages",
+    "Run Facebook Sharing Debugger or LinkedIn Post Inspector for social previews",
+    "Run Lighthouse on the homepage and at least three Phase D pages",
+    "Submit sitemap.xml in Google Search Console after ownership verification"
+  ]
+}
