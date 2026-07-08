@@ -1,0 +1,11 @@
+{
+  "book": "Intelligent Capitalism",
+  "author": "Chang-Gyu Kwag",
+  "cover": {
+    "png": "/assets/images/books/intelligent-capitalism-cover.png",
+    "webp": "/assets/images/books/intelligent-capitalism-cover.webp",
+    "thumbnail": "/assets/images/books/intelligent-capitalism-cover-thumb.webp",
+    "alt": "Cover of Intelligent Capitalism by Chang-Gyu Kwag"
+  },
+  "recommended_html": "Use the <picture> snippet in docs/intelligent-capitalism-cover-html-snippet.html."
+}

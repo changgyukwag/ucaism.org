@@ -1,12 +1,13 @@
-# Commit Summary
+# Commit Message
 
-Add final live site QA package
+## Summary
 
-# Commit Description
+Replace Intelligent Capitalism cover image
 
-- Added the final live site QA package for UCAISM.org after Phase A–F development.
-- Added a practical live-site checklist for verifying core pages, research platform pages, multilingual pages, robots.txt, sitemap.xml, and social/SEO readiness.
-- Added a final issue log template for recording only real problems found after GitHub Pages deployment.
-- Added a launch readiness checklist to help move the site from expansion mode to stable editorial maintenance.
-- Added a lightweight browser-console live QA helper for checking page title, description, canonical URL, Open Graph, Twitter Card, JSON-LD, images, and links.
-- Preserved LF line-ending normalization through .gitattributes.
+## Description
+
+- Replaced the website cover asset for Intelligent Capitalism with the revised cover image.
+- Added optimized PNG, WebP, and thumbnail WebP versions for flexible website use.
+- Added a reusable HTML picture snippet for safe integration into the Intelligent Capitalism section.
+- Added structured cover metadata for future maintenance.
+- Preserved a clean web-friendly file naming convention for GitHub Pages.

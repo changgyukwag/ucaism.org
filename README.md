@@ -1,19 +1,41 @@
-# UCAISM.org — Final Live Site QA Package
+# Intelligent Capitalism Cover Replacement
 
-This is the final stabilization package after Phase A–F.
+This package replaces the website cover image for **Intelligent Capitalism** with the attached revised cover.
 
-Use this package after committing and pushing the completed site to GitHub Pages. It is not a new feature expansion. It is a final verification kit for checking live URLs, navigation, mobile display, SEO metadata, social sharing readiness, performance, and editorial credibility.
+## Files
 
-## Recommended workflow
+- `assets/images/books/intelligent-capitalism-cover.png`
+- `assets/images/books/intelligent-capitalism-cover.webp`
+- `assets/images/books/intelligent-capitalism-cover-thumb.webp`
+- `data/intelligent-capitalism-cover.json`
+- `docs/intelligent-capitalism-cover-html-snippet.html`
 
-1. Copy this package into the root of the ucaism.org repository.
-2. Commit and push with the included commit message.
-3. Wait for GitHub Pages deployment to complete.
-4. Open the live site and check each URL in `docs/final-live-url-checklist.md`.
-5. Use `docs/final-issue-log-template.md` to record problems.
-6. Fix only real issues found on the live site.
-7. Avoid adding new sections or features during this final QA phase.
+## Recommended integration
 
-## Final principle
+1. Copy the package contents into the root of the `ucaism.org` repository.
+2. In the page where **Intelligent Capitalism** appears, find the current cover image.
+3. Replace the old image path with:
 
-From this point forward, UCAISM.org should move from expansion mode to editorial maintenance mode.
+```html
+/assets/images/books/intelligent-capitalism-cover.webp
+```
+
+or use the full `<picture>` snippet in:
+
+```text
+docs/intelligent-capitalism-cover-html-snippet.html
+```
+
+## Alt text
+
+Use:
+
+```text
+Cover of Intelligent Capitalism by Chang-Gyu Kwag
+```
+
+## Notes
+
+- The PNG file preserves the uploaded cover.
+- The WebP file is recommended for faster loading.
+- The thumbnail WebP can be used for cards, grids, and mobile previews.
