@@ -1,3 +1,3 @@
-# UCAISM.org Phase C-2
+# UCAISM.org Phase C-3
 
-Featured Book, About the Author, Intelligent Capitalism, Research & Ideas homepage expansion.
+Research Center expansion: featured research, series, and research agenda.
