@@ -1,0 +1,100 @@
+{
+  "phase": "F-1",
+  "purpose": "Integration and cleanup foundation for UCAISM.org",
+  "recommendedTopNavigation": [
+    "Home",
+    "Research",
+    "Books",
+    "Insights",
+    "Media",
+    "Community",
+    "Contact"
+  ],
+  "priorityPages": [
+    {
+      "path": "/",
+      "role": "Homepage",
+      "priority": "P1",
+      "action": "Metadata and navigation review"
+    },
+    {
+      "path": "/research-library/",
+      "role": "Research entry point",
+      "priority": "P1",
+      "action": "Metadata, link, and content-density review"
+    },
+    {
+      "path": "/foundation-papers/",
+      "role": "Core research series",
+      "priority": "P1",
+      "action": "Metadata and citation alignment"
+    },
+    {
+      "path": "/policy-briefs/",
+      "role": "Policy translation layer",
+      "priority": "P1",
+      "action": "Metadata and audience clarity"
+    },
+    {
+      "path": "/working-papers/",
+      "role": "Pre-publication research",
+      "priority": "P1",
+      "action": "Versioning and placeholder review"
+    },
+    {
+      "path": "/media-kit/",
+      "role": "Press resource hub",
+      "priority": "P1",
+      "action": "Social sharing metadata"
+    },
+    {
+      "path": "/citation-center/",
+      "role": "Citation and reference hub",
+      "priority": "P1",
+      "action": "Citation consistency review"
+    },
+    {
+      "path": "/news-insights/",
+      "role": "Editorial updates",
+      "priority": "P2",
+      "action": "Archive structure review"
+    },
+    {
+      "path": "/newsletter/",
+      "role": "Reader relationship",
+      "priority": "P2",
+      "action": "Signup integration decision"
+    },
+    {
+      "path": "/events/",
+      "role": "Events and talks",
+      "priority": "P2",
+      "action": "Upcoming/past event distinction"
+    },
+    {
+      "path": "/global-community/",
+      "role": "Community participation",
+      "priority": "P2",
+      "action": "Participation flow review"
+    },
+    {
+      "path": "/ko/",
+      "role": "Korean foundation",
+      "priority": "P3",
+      "action": "Human translation review"
+    },
+    {
+      "path": "/ja/",
+      "role": "Japanese foundation",
+      "priority": "P3",
+      "action": "Human translation review"
+    },
+    {
+      "path": "/es/",
+      "role": "Spanish foundation",
+      "priority": "P3",
+      "action": "Human translation review"
+    }
+  ],
+  "nextPhase": "Phase F-2 Navigation Consolidation"
+}

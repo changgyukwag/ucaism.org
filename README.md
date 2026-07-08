@@ -1,24 +1,21 @@
-# UCAISM.org Phase E-7 — Final SEO QA Pass
+# UCAISM.org — Phase F-1 Integration & Cleanup Foundation
 
-This package adds the final SEO QA layer for Phase E.
+This package begins Phase F: stabilizing and consolidating the expanded UCAISM.org platform after Phases D and E.
 
-## Files included
+## What this package does
 
-- `docs/phase-e-final-seo-qa-checklist.md`
-- `docs/post-deployment-validation-guide.md`
-- `docs/phase-e-completion-report.md`
-- `data/final-seo-qa.json`
-- `assets/js/final-seo-qa-check.js`
-- `.gitattributes`
-- `COMMIT_MESSAGE.md`
+- Adds a Phase F integration and cleanup plan.
+- Adds a navigation consolidation guide.
+- Adds a priority map for applying Phase E head metadata safely.
+- Adds a site stabilization checklist.
+- Adds a structured page inventory for future QA and maintenance.
+- Adds an optional browser-console health check script.
+- Preserves LF line-ending normalization through `.gitattributes`.
 
-## Installation
+## Install
 
-1. Copy the contents of this folder into the root of the existing `ucaism.org` repository.
-2. Overwrite matching files only when prompted.
-3. Do not delete existing pages.
-4. Commit and push through GitHub Desktop.
+Copy the contents of this folder into the root of the existing `ucaism.org` GitHub Pages repository. Overwrite same-named files only when prompted. Do not delete existing HTML pages.
 
-## Note
+## Recommended next step
 
-This phase is a QA/documentation layer. It does not force new tracking scripts or change the public layout of existing pages.
+Phase F-2 — Navigation Consolidation.
