@@ -1,0 +1,112 @@
+/* Phase E-4 Multilingual Foundation additions */
+.language-gateway-hero {
+  background:
+    radial-gradient(circle at 78% 18%, rgba(230, 197, 119, 0.22), transparent 28%),
+    linear-gradient(135deg, #0f172a 0%, #172949 52%, #111f38 100%);
+  color: #fff;
+}
+
+.language-gateway-section,
+.translation-roadmap,
+.hreflang-guide,
+.locale-principles {
+  padding: 72px 0;
+}
+
+.language-grid,
+.locale-grid,
+.translation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.language-card,
+.locale-card,
+.translation-card,
+.hreflang-card {
+  background: var(--ucaism-surface, #ffffff);
+  border: 1px solid var(--ucaism-line, #e5e7eb);
+  border-radius: var(--ucaism-radius-lg, 18px);
+  padding: 24px;
+  box-shadow: var(--ucaism-shadow-sm, 0 8px 22px rgba(15, 23, 42, 0.06));
+}
+
+.language-card .locale-code,
+.locale-card .locale-code {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(230, 197, 119, 0.16);
+  color: var(--ucaism-ink, #111827);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.language-switcher a,
+.language-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 7px 12px;
+  border: 1px solid var(--ucaism-line, #e5e7eb);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--ucaism-ink, #111827);
+  background: var(--ucaism-surface, #ffffff);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.language-switcher a[aria-current="true"],
+.language-pill.is-current {
+  background: var(--ucaism-ink, #111827);
+  color: #ffffff;
+  border-color: var(--ucaism-ink, #111827);
+}
+
+.locale-note {
+  color: var(--ucaism-muted, #64748b);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.translation-status {
+  display: inline-flex;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(14, 165, 233, 0.12);
+  color: #075985;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.translation-status.ready {
+  background: rgba(34, 197, 94, 0.14);
+  color: #166534;
+}
+
+.translation-status.planned {
+  background: rgba(245, 158, 11, 0.16);
+  color: #92400e;
+}
+
+@media (max-width: 920px) {
+  .language-grid,
+  .locale-grid,
+  .translation-grid {
+    grid-template-columns: 1fr;
+  }
+}

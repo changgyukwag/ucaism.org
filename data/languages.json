@@ -1,0 +1,49 @@
+{
+  "defaultLocale": "en",
+  "site": "https://ucaism.org",
+  "locales": [
+    {
+      "code": "en",
+      "label": "English",
+      "nativeLabel": "English",
+      "path": "/",
+      "status": "primary",
+      "direction": "ltr"
+    },
+    {
+      "code": "ko",
+      "label": "Korean",
+      "nativeLabel": "한국어",
+      "path": "/ko/",
+      "status": "foundation",
+      "direction": "ltr"
+    },
+    {
+      "code": "ja",
+      "label": "Japanese",
+      "nativeLabel": "日本語",
+      "path": "/ja/",
+      "status": "foundation",
+      "direction": "ltr"
+    },
+    {
+      "code": "es",
+      "label": "Spanish",
+      "nativeLabel": "Español",
+      "path": "/es/",
+      "status": "foundation",
+      "direction": "ltr"
+    }
+  ],
+  "futureLocales": [
+    "fr",
+    "de",
+    "it",
+    "pt"
+  ],
+  "translationPolicy": {
+    "principle": "Translate meaning, rhythm, and institutional seriousness rather than word-for-word phrasing.",
+    "sourceOfTruth": "English remains the primary source version unless a translated page is explicitly marked as final.",
+    "review": "All public translations should be reviewed for accuracy, tone, terminology, and local readability before being marked final."
+  }
+}

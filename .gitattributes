@@ -23,4 +23,3 @@
 *.zip  binary
 *.docx binary
 *.pptx binary
-*.svg  text eol=lf

@@ -1,0 +1,30 @@
+{
+  "home": {
+    "en": "https://ucaism.org/",
+    "ko": "https://ucaism.org/ko/",
+    "ja": "https://ucaism.org/ja/",
+    "es": "https://ucaism.org/es/",
+    "xDefault": "https://ucaism.org/"
+  },
+  "researchLibrary": {
+    "en": "https://ucaism.org/research-library/",
+    "ko": "https://ucaism.org/ko/research-library/",
+    "ja": "https://ucaism.org/ja/research-library/",
+    "es": "https://ucaism.org/es/research-library/",
+    "xDefault": "https://ucaism.org/research-library/"
+  },
+  "foundationPapers": {
+    "en": "https://ucaism.org/foundation-papers/",
+    "ko": "https://ucaism.org/ko/foundation-papers/",
+    "ja": "https://ucaism.org/ja/foundation-papers/",
+    "es": "https://ucaism.org/es/foundation-papers/",
+    "xDefault": "https://ucaism.org/foundation-papers/"
+  },
+  "policyBriefs": {
+    "en": "https://ucaism.org/policy-briefs/",
+    "ko": "https://ucaism.org/ko/policy-briefs/",
+    "ja": "https://ucaism.org/ja/policy-briefs/",
+    "es": "https://ucaism.org/es/policy-briefs/",
+    "xDefault": "https://ucaism.org/policy-briefs/"
+  }
+}
