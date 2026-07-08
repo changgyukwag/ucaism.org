@@ -1,3 +1,3 @@
-# UCAISM.org Phase C-5
+# UCAISM.org Phase C-6
 
-Author profile and Intelligent Capitalism pages; homepage and publications integration.
+Research Center, Media Center, and Downloads Center expansion.

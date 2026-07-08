@@ -1,1 +1,1 @@
-console.log('UCAISM.org Phase C-5 author and intelligent capitalism loaded');
+console.log('UCAISM.org Phase C-6 research media downloads loaded');
