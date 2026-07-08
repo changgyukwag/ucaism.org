@@ -1,3 +1,3 @@
-# UCAISM.org Phase C-1
+# UCAISM.org Phase C-2
 
-Header logo, favicon, primary logo identity system.
+Featured Book, About the Author, Intelligent Capitalism, Research & Ideas homepage expansion.
