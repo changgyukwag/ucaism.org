@@ -1,0 +1,79 @@
+{
+  "collection": "Working Papers",
+  "description": "Pre-publication research drafts from UCAISM Global Initiative.",
+  "version": "Phase D-4 seed data",
+  "items": [
+    {
+      "id": "WP-01",
+      "title": "The Sovereignty Gap: A Preliminary Framework",
+      "track": "Theory",
+      "status": "In preparation",
+      "type": "Draft",
+      "pdf": null,
+      "citation": null
+    },
+    {
+      "id": "WP-02",
+      "title": "Fiduciary AI and Governed Custody",
+      "track": "Governance",
+      "status": "Planned",
+      "type": "Draft",
+      "pdf": null,
+      "citation": null
+    },
+    {
+      "id": "WP-03",
+      "title": "Open Rails and the Architecture of Exit",
+      "track": "Digital Public Infrastructure",
+      "status": "Planned",
+      "type": "Technical note",
+      "pdf": null,
+      "citation": null
+    },
+    {
+      "id": "WP-04",
+      "title": "Intelligent Capitalism and the Human Dividend",
+      "track": "Political Economy",
+      "status": "Forthcoming",
+      "type": "Concept paper",
+      "pdf": null,
+      "citation": null
+    },
+    {
+      "id": "WP-05",
+      "title": "Platform Rulebooks and Institutional Standing",
+      "track": "Governance",
+      "status": "Planned",
+      "type": "Case analysis",
+      "pdf": null,
+      "citation": null
+    },
+    {
+      "id": "WP-06",
+      "title": "UCAISM as Model, Movement, and Ideology",
+      "track": "Theory",
+      "status": "In development",
+      "type": "Position paper",
+      "pdf": null,
+      "citation": null
+    },
+    {
+      "id": "WP-07",
+      "title": "National Reciprocity Loop and Digital Capacity",
+      "track": "Digital Public Infrastructure",
+      "status": "Planned",
+      "type": "Framework",
+      "pdf": null,
+      "citation": null
+    },
+    {
+      "id": "WP-08",
+      "title": "The Third Architecture: Beyond Closed Platforms",
+      "track": "Political Economy",
+      "status": "Planned",
+      "type": "Draft",
+      "pdf": null,
+      "citation": null
+    }
+  ]
+}
