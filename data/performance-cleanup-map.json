@@ -1,0 +1,39 @@
+{
+  "phase": "F-5",
+  "title": "Lightweight Performance Cleanup",
+  "site": "https://ucaism.org/",
+  "priorities": [
+    {
+      "area": "JavaScript",
+      "goal": "Load only page-specific scripts on public pages.",
+      "risk": "Unnecessary scripts can slow pages and create selector errors.",
+      "action": "Use defer and avoid loading QA scripts by default."
+    },
+    {
+      "area": "CSS",
+      "goal": "Keep the design system consistent without uncontrolled CSS growth.",
+      "risk": "Large overlapping CSS files can make future visual changes fragile.",
+      "action": "Document components and avoid duplicating card, hero, grid, and badge styles."
+    },
+    {
+      "area": "Images",
+      "goal": "Use appropriately sized assets for web display.",
+      "risk": "Large images are the most likely source of slow loading.",
+      "action": "Prefer SVG/WebP, dimensions, lazy loading, and optimized display files."
+    },
+    {
+      "area": "Metadata",
+      "goal": "Prevent duplicate or conflicting SEO/social tags.",
+      "risk": "Duplicate metadata can weaken SEO and social previews.",
+      "action": "Apply head metadata gradually and verify each priority page."
+    },
+    {
+      "area": "Static site discipline",
+      "goal": "Preserve GitHub Pages simplicity.",
+      "risk": "Unneeded tools can add maintenance burden.",
+      "action": "Avoid build tools, server code, and third-party scripts unless necessary."
+    }
+  ],
+  "qaScriptsShouldBePublic": false,
+  "recommendedNextPhase": "F-6 — Site QA and Deployment Verification"
+}

@@ -1,13 +1,14 @@
 # Commit Summary
 
-Add Phase F-4 priority page head integration
+Add Phase F-5 lightweight performance cleanup
 
 # Commit Description
 
-- Added a priority page head integration kit for UCAISM.org.
-- Prepared production-ready head metadata snippets for high-value pages: homepage, Research Library, Foundation Papers, Policy Briefs, Working Papers, Books, Media Kit, Citation Center, News & Insights, Newsletter, Events, Global Community, and multilingual landing pages.
-- Added canonical, robots, description, Open Graph, Twitter Cards, and page-level Schema.org JSON-LD templates for safe manual integration.
-- Added a page-by-page integration checklist to prevent duplicate metadata, conflicting canonical URLs, or broken social sharing previews.
-- Added structured priority metadata data for future maintenance and QA.
-- Added a browser-console priority head integration checker for validating pages after manual insertion.
+- Added a lightweight performance cleanup layer for UCAISM.org after the Phase D/E/F expansion.
+- Added guidance for CSS governance, JavaScript loading, image optimization, metadata discipline, and GitHub Pages static-site simplicity.
+- Added a script loading cleanup map to separate public page scripts from QA-only health-check scripts.
+- Added an image optimization checklist for future diagrams, book covers, social cards, and media assets.
+- Added CSS cleanup notes to reduce duplication risk without breaking the existing design system.
+- Added structured performance cleanup data for future maintenance and QA.
+- Added an optional browser-console lightweight performance audit helper for local review.
 - Preserved LF line-ending normalization through .gitattributes.
