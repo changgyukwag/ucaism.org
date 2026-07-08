@@ -1,31 +1,27 @@
-# UCAISM.org — Phase E-2 Schema.org Structured Data
+# UCAISM.org — Phase E-3 Open Graph & Twitter Cards
 
-This package adds a structured-data layer for UCAISM.org. It is designed for a static GitHub Pages site and does not require a backend.
+This package adds the Open Graph and Twitter/X Card foundation for UCAISM.org.
 
-## What this phase adds
+## Files included
 
-- Institutional Schema.org identity for UCAISM Global Initiative
-- Author Schema.org identity for Chang-Gyu Kwag
-- WebSite schema with a search action target
-- Book schema for *Open Wins: The New Enlightenment*
-- Page-level JSON-LD for Research Library, Foundation Papers, Policy Briefs, Working Papers, Media Kit, Citation Center, News & Insights, Newsletter, Events, and Global Community
-- A structured schema data file for future automation
-- Optional local schema health-check script
+- `assets/images/social/ucaism-social-card.svg`
+- `data/social-cards.json`
+- `docs/open-graph-twitter-card-snippets.html`
+- `docs/open-graph-twitter-card-snippets.md`
+- `assets/js/social-card-health-check.js`
+- `.gitattributes`
+- `COMMIT_MESSAGE.md`
 
-## Installation
+## Install
 
-1. Copy the files and folders in this package into the root of the existing `ucaism.org` repository.
-2. Keep `.gitattributes` in the root directory.
-3. Use `docs/schema-jsonld-snippets.html` or `docs/schema-jsonld-snippets.md` to add page-specific JSON-LD blocks into the `<head>` of each corresponding HTML page.
-4. Do not add every internal-page schema block to every page. Use only the relevant block for the page being edited.
-5. Commit and push through GitHub Desktop.
+1. Copy the contents of this folder into the root of the existing `ucaism.org` GitHub Pages repository.
+2. Overwrite files when prompted.
+3. Do not delete existing HTML pages.
+4. Commit and push with the commit message in `COMMIT_MESSAGE.md`.
+5. Confirm that this file loads after deployment:
 
-## Recommended application order
+`https://ucaism.org/assets/images/social/ucaism-social-card.svg`
 
-1. Add the Organization, Person, WebSite, and Book blocks to the home page.
-2. Add the matching page-specific block to each Phase D page.
-3. Test published pages with a rich-results or schema validation tool.
+## Integration note
 
-## Notes
-
-This phase prepares the site for Phase E-3 Open Graph & Twitter Cards. Schema.org helps search engines understand the institutional and publication structure of the website; Open Graph and Twitter Cards help shared links look professional on social platforms.
+This phase provides snippets and metadata assets. The actual `<head>` insertion should be done carefully page by page using `docs/open-graph-twitter-card-snippets.html`.

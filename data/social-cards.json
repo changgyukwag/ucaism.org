@@ -1,0 +1,97 @@
+{
+  "siteName": "UCAISM.org",
+  "defaultImage": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+  "twitterCard": "summary_large_image",
+  "twitterSite": "",
+  "locale": "en_US",
+  "pages": [
+    {
+      "label": "Home",
+      "url": "https://ucaism.org/",
+      "title": "UCAISM.org | Individual Sovereignty in the Age of AI",
+      "description": "UCAISM Global Initiative is a research and public-education platform founded by Chang-Gyu Kwag, exploring individual sovereignty, AI governance, and intelligent capitalism.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Research Library",
+      "url": "https://ucaism.org/research-library/",
+      "title": "Research Library | UCAISM.org",
+      "description": "Explore books, foundation papers, policy briefs, working papers, media resources, and research updates from UCAISM Global Initiative.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Foundation Papers",
+      "url": "https://ucaism.org/foundation-papers/",
+      "title": "Foundation Papers | UCAISM.org",
+      "description": "Foundational research papers defining UCAISM, the Sovereignty Gap, fiduciary AI, open digital rails, and Intelligent Capitalism.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Policy Briefs",
+      "url": "https://ucaism.org/policy-briefs/",
+      "title": "Policy Briefs | UCAISM.org",
+      "description": "Concise policy guidance on AI governance, platform reform, data sovereignty, digital public infrastructure, and the human dividend.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Working Papers",
+      "url": "https://ucaism.org/working-papers/",
+      "title": "Working Papers | UCAISM.org",
+      "description": "Pre-publication research notes, technical drafts, and conceptual papers from the UCAISM Global Initiative.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Media Kit",
+      "url": "https://ucaism.org/media-kit/",
+      "title": "Media Kit | UCAISM.org",
+      "description": "Official media resources for journalists, editors, podcasts, event organizers, universities, and research institutions.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Citation Center",
+      "url": "https://ucaism.org/citation-center/",
+      "title": "Citation Center | UCAISM.org",
+      "description": "Official citation guidance for UCAISM books, foundation papers, policy briefs, working papers, and institutional materials.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "News & Insights",
+      "url": "https://ucaism.org/news-insights/",
+      "title": "News & Insights | UCAISM.org",
+      "description": "Commentary, research updates, book news, media notes, and institutional announcements from UCAISM Global Initiative.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Newsletter",
+      "url": "https://ucaism.org/newsletter/",
+      "title": "Newsletter | UCAISM.org",
+      "description": "Subscribe to UCAISM updates on research, policy, books, events, and the global conversation on individual sovereignty.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Events",
+      "url": "https://ucaism.org/events/",
+      "title": "Events | UCAISM.org",
+      "description": "Lectures, seminars, policy briefings, book talks, and global dialogues hosted or supported by UCAISM Global Initiative.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    },
+    {
+      "label": "Global Community",
+      "url": "https://ucaism.org/global-community/",
+      "title": "Global Community | UCAISM.org",
+      "description": "Join the global UCAISM community of readers, researchers, educators, policymakers, institutional partners, and media audiences.",
+      "image": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+      "type": "website"
+    }
+  ]
+}
