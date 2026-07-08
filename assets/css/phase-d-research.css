@@ -240,3 +240,154 @@
     grid-column: span 1;
   }
 }
+
+
+/* Phase D-8 Newsletter additions */
+.newsletter-hero {
+  background:
+    radial-gradient(circle at 82% 18%, rgba(230, 197, 119, 0.25), transparent 30%),
+    linear-gradient(135deg, #0f1a2f 0%, #173050 52%, #102943 100%);
+}
+
+.newsletter-overview,
+.newsletter-signup-section,
+.newsletter-archive-section,
+.newsletter-roadmap-section {
+  padding: 72px 0;
+}
+
+.newsletter-grid {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 18px;
+}
+
+.newsletter-panel,
+.newsletter-card,
+.archive-card,
+.newsletter-roadmap-card {
+  background: var(--ucaism-surface, #ffffff);
+  border: 1px solid var(--ucaism-line, #e4e8ef);
+  border-radius: var(--ucaism-radius-lg, 22px);
+  box-shadow: var(--ucaism-shadow, 0 18px 45px rgba(15, 23, 42, 0.08));
+}
+
+.newsletter-panel {
+  padding: 28px;
+}
+
+.newsletter-note {
+  border-left: 4px solid var(--ucaism-gold, #d8b45f);
+}
+
+.newsletter-signup-card {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 34px;
+}
+
+.newsletter-form {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr auto;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.newsletter-form input,
+.newsletter-form select {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--ucaism-line, #e4e8ef);
+  border-radius: 999px;
+  padding: 0 18px;
+  font: inherit;
+  background: #ffffff;
+}
+
+.newsletter-privacy-note {
+  margin-top: 14px;
+  color: var(--ucaism-muted, #667085);
+  font-size: 0.92rem;
+}
+
+.newsletter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 28px 0 18px;
+}
+
+.newsletter-search-wrap {
+  margin-bottom: 24px;
+}
+
+.archive-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.archive-card {
+  padding: 24px;
+  display: flex;
+  min-height: 250px;
+  flex-direction: column;
+}
+
+.archive-card.featured {
+  grid-column: span 2;
+  background:
+    linear-gradient(135deg, rgba(216, 180, 95, 0.16), rgba(255, 255, 255, 0.96));
+}
+
+.archive-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.archive-meta span {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--ucaism-line, #e4e8ef);
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 0.78rem;
+  color: var(--ucaism-muted, #667085);
+  background: var(--ucaism-soft, #f7f8fb);
+}
+
+.archive-card h3 {
+  margin-top: 0;
+}
+
+.archive-card a {
+  margin-top: auto;
+  font-weight: 700;
+  color: var(--ucaism-blue, #163052);
+  text-decoration: none;
+}
+
+.newsletter-roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.newsletter-roadmap-card {
+  padding: 22px;
+}
+
+@media (max-width: 900px) {
+  .newsletter-grid,
+  .newsletter-form,
+  .archive-list,
+  .newsletter-roadmap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-card.featured {
+    grid-column: span 1;
+  }
+}

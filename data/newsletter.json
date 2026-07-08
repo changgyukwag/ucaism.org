@@ -1,0 +1,66 @@
+{
+  "section": "Newsletter",
+  "phase": "D-8",
+  "status": "static launch scaffold",
+  "description": "Structured seed data for UCAISM newsletter signup, issue archive, editorial categories, and future mailing-service integration.",
+  "categories": [
+    {
+      "id": "research-digest",
+      "label": "Research Digest",
+      "purpose": "Summaries of UCAISM research, concepts, and current debates."
+    },
+    {
+      "id": "policy-note",
+      "label": "Policy Note",
+      "purpose": "Short updates connecting research to institutional design and governance."
+    },
+    {
+      "id": "book-update",
+      "label": "Book Update",
+      "purpose": "Updates on Open Wins and forthcoming Intelligent Capitalism materials."
+    },
+    {
+      "id": "platform-update",
+      "label": "Platform Update",
+      "purpose": "Development notes about UCAISM.org and the global research platform."
+    }
+  ],
+  "issues": [
+    {
+      "id": "NL-001",
+      "title": "The New Enlightenment Research Digest",
+      "type": "research-digest",
+      "status": "coming soon",
+      "url": "#"
+    },
+    {
+      "id": "NL-002",
+      "title": "From Foundation Papers to Policy Briefs",
+      "type": "policy-note",
+      "status": "coming soon",
+      "url": "#"
+    },
+    {
+      "id": "NL-003",
+      "title": "Open Wins: Reader Resources and Public Notes",
+      "type": "book-update",
+      "status": "coming soon",
+      "url": "#"
+    },
+    {
+      "id": "NL-004",
+      "title": "Building UCAISM.org as a Research Platform",
+      "type": "platform-update",
+      "status": "coming soon",
+      "url": "#"
+    }
+  ],
+  "future_integrations": [
+    "Buttondown",
+    "Mailchimp",
+    "ConvertKit",
+    "Substack",
+    "Formspree",
+    "Netlify Forms compatible endpoint"
+  ]
+}
