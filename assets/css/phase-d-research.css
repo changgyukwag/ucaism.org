@@ -541,3 +541,159 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Phase D-10 Global Community additions */
+.community-hero {
+  background:
+    radial-gradient(circle at 78% 20%, rgba(230, 197, 119, 0.24), transparent 30%),
+    linear-gradient(135deg, #0f1d35 0%, #193252 54%, #102744 100%);
+}
+
+.community-overview,
+.community-pathways-section,
+.community-principles-section,
+.community-network-section,
+.community-roadmap-section {
+  padding: 72px 0;
+}
+
+.community-grid {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 18px;
+}
+
+.community-panel,
+.pathway-card,
+.principle-card,
+.network-card,
+.community-roadmap-card {
+  background: var(--ucaism-surface, #ffffff);
+  border: 1px solid var(--ucaism-line, #e4e8ef);
+  border-radius: var(--ucaism-radius-lg, 22px);
+  box-shadow: var(--ucaism-shadow, 0 18px 45px rgba(15, 23, 42, 0.08));
+}
+
+.community-panel {
+  padding: 28px;
+}
+
+.community-note {
+  border-left: 4px solid var(--ucaism-gold, #d8b45f);
+}
+
+.community-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 28px 0 18px;
+}
+
+.community-search-wrap {
+  margin-bottom: 24px;
+}
+
+.pathway-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.pathway-card {
+  padding: 24px;
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+}
+
+.pathway-card.featured {
+  grid-column: span 2;
+  background:
+    linear-gradient(135deg, rgba(216, 180, 95, 0.16), rgba(255, 255, 255, 0.96));
+}
+
+.pathway-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.pathway-meta span {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--ucaism-line, #e4e8ef);
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 0.78rem;
+  color: var(--ucaism-muted, #667085);
+  background: var(--ucaism-soft, #f7f8fb);
+}
+
+.pathway-card h3,
+.principle-card h3,
+.network-card h3,
+.community-roadmap-card h3 {
+  margin-top: 0;
+}
+
+.pathway-card a {
+  margin-top: auto;
+  font-weight: 700;
+  color: var(--ucaism-blue, #163052);
+  text-decoration: none;
+}
+
+.principle-grid,
+.network-grid,
+.community-roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.principle-card,
+.network-card,
+.community-roadmap-card {
+  padding: 22px;
+}
+
+.community-cta-card {
+  padding: 30px;
+  background:
+    linear-gradient(135deg, rgba(22, 48, 82, 0.96), rgba(15, 34, 59, 0.96));
+  color: #ffffff;
+  border-radius: var(--ucaism-radius-lg, 22px);
+}
+
+.community-cta-card p {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.community-cta-card .phase-d-button.secondary {
+  border-color: rgba(255, 255, 255, 0.44);
+  color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .pathway-list,
+  .principle-grid,
+  .network-grid,
+  .community-roadmap-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pathway-card.featured {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 760px) {
+  .community-grid,
+  .pathway-list,
+  .principle-grid,
+  .network-grid,
+  .community-roadmap-grid {
+    grid-template-columns: 1fr;
+  }
+}

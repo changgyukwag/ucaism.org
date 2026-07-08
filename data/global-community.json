@@ -1,0 +1,64 @@
+{
+  "page": "Global Community",
+  "phase": "D-10",
+  "status": "seed",
+  "description": "Structured community pathways for the UCAISM Global Initiative.",
+  "pathways": [
+    {
+      "id": "GC-01",
+      "type": "reader",
+      "title": "Readers and Book Communities",
+      "status": "open",
+      "primaryLink": "/newsletter/",
+      "keywords": ["Open Wins", "book clubs", "newsletter", "New Enlightenment", "individual sovereignty"]
+    },
+    {
+      "id": "GC-02",
+      "type": "researcher",
+      "title": "Researchers and Scholars",
+      "status": "open",
+      "primaryLink": "/research-library/",
+      "keywords": ["foundation papers", "working papers", "citation center", "political economy", "AI governance"]
+    },
+    {
+      "id": "GC-03",
+      "type": "policy",
+      "title": "Policy and Civic Leaders",
+      "status": "open",
+      "primaryLink": "/policy-briefs/",
+      "keywords": ["policy briefs", "platform reform", "data sovereignty", "digital public infrastructure", "fiduciary AI"]
+    },
+    {
+      "id": "GC-04",
+      "type": "education",
+      "title": "Educators and Students",
+      "status": "planned",
+      "primaryLink": "/events/",
+      "keywords": ["universities", "seminars", "reading groups", "public education", "curriculum"]
+    },
+    {
+      "id": "GC-05",
+      "type": "partner",
+      "title": "Institutional Partners",
+      "status": "open",
+      "primaryLink": "/contact/",
+      "keywords": ["think tanks", "universities", "NGOs", "research exchange", "public education"]
+    },
+    {
+      "id": "GC-06",
+      "type": "media",
+      "title": "Media and Interview Requests",
+      "status": "open",
+      "primaryLink": "/media-kit/",
+      "keywords": ["journalists", "podcasts", "interviews", "press", "media kit"]
+    }
+  ],
+  "futureIntegrations": [
+    "newsletter signup service",
+    "event registration service",
+    "reading guide downloads",
+    "partner pages",
+    "country dialogue pages",
+    "translation hub"
+  ]
+}
