@@ -1,0 +1,85 @@
+{
+  "phase": "D-9",
+  "section": "Events",
+  "description": "Static event hub for UCAISM lectures, seminars, policy briefings, book talks, and global dialogues.",
+  "events": [
+    {
+      "id": "EV-01",
+      "type": "global-dialogue",
+      "title": "The New Enlightenment: Individual Sovereignty in the Age of AI",
+      "status": "coming-soon",
+      "audience": [
+        "general public",
+        "researchers",
+        "policy leaders",
+        "media"
+      ]
+    },
+    {
+      "id": "EV-02",
+      "type": "lecture",
+      "title": "Open Wins and the Sovereignty Gap",
+      "status": "coming-soon",
+      "audience": [
+        "universities",
+        "book readers",
+        "civic forums"
+      ]
+    },
+    {
+      "id": "EV-03",
+      "type": "policy-briefing",
+      "title": "Fiduciary AI and Platform Reform",
+      "status": "coming-soon",
+      "audience": [
+        "policymakers",
+        "regulators",
+        "institutional designers"
+      ]
+    },
+    {
+      "id": "EV-04",
+      "type": "seminar",
+      "title": "UCAISM Research Seminar",
+      "status": "coming-soon",
+      "audience": [
+        "researchers",
+        "students",
+        "think tanks"
+      ]
+    },
+    {
+      "id": "EV-05",
+      "type": "book-talk",
+      "title": "Author Conversation with Chang-Gyu Kwag",
+      "status": "coming-soon",
+      "audience": [
+        "readers",
+        "media",
+        "event organizers"
+      ]
+    },
+    {
+      "id": "EV-06",
+      "type": "global-dialogue",
+      "title": "Open Rails, DPI, and the Leapfrog Flywheel",
+      "status": "coming-soon",
+      "audience": [
+        "DPI community",
+        "global development",
+        "policy networks"
+      ]
+    }
+  ],
+  "future_fields": [
+    "date",
+    "time",
+    "timezone",
+    "location",
+    "registration_url",
+    "speakers",
+    "recording_url",
+    "transcript_url",
+    "related_research"
+  ]
+}
