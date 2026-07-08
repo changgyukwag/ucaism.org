@@ -1,0 +1,326 @@
+# Phase E-2 Schema.org JSON-LD Snippets
+
+Use these snippets inside the `<head>` section of the matching page. Keep one institutional layer on the home page and one page-specific layer on each internal page.
+
+## Home page: Organization + Person + WebSite + Book
+
+```html
+<!-- ResearchOrganization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "@id": "https://ucaism.org/#organization",
+  "name": "UCAISM Global Initiative",
+  "url": "https://ucaism.org/",
+  "logo": "https://ucaism.org/assets/images/ucaism-logo.png",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://ucaism.org/#chang-gyu-kwag",
+    "name": "Chang-Gyu Kwag",
+    "url": "https://ucaism.org/#author"
+  },
+  "description": "An independent research and public-education initiative for individual sovereignty in the age of AI, platforms, and digital capitalism.",
+  "sameAs": [
+    "https://ucaism.org/"
+  ]
+}
+</script>
+```
+
+```html
+<!-- Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://ucaism.org/#chang-gyu-kwag",
+  "name": "Chang-Gyu Kwag",
+  "url": "https://ucaism.org/#author",
+  "affiliation": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "jobTitle": "Founder, UCAISM Global Initiative",
+  "description": "Political economist, civic reformer, and author of Open Wins: The New Enlightenment."
+}
+</script>
+```
+
+```html
+<!-- WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://ucaism.org/#website",
+  "url": "https://ucaism.org/",
+  "name": "UCAISM.org",
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ucaism.org/research-library/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+```
+
+```html
+<!-- Book -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "https://ucaism.org/#open-wins",
+  "name": "Open Wins: The New Enlightenment",
+  "author": {
+    "@id": "https://ucaism.org/#chang-gyu-kwag"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "url": "https://ucaism.org/#open-wins",
+  "inLanguage": "en",
+  "description": "A global nonfiction work on individual sovereignty, platform power, AI governance, and the UCAISM framework."
+}
+</script>
+```
+
+## Internal pages: page-specific JSON-LD
+
+### Research Library
+
+```html
+<!-- Research Library -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://ucaism.org/research-library/#webpage",
+  "url": "https://ucaism.org/research-library/",
+  "name": "Research Library",
+  "description": "A central catalog for books, foundation papers, policy briefs, working papers, and media resources.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+
+### Foundation Papers
+
+```html
+<!-- Foundation Papers -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://ucaism.org/foundation-papers/#webpage",
+  "url": "https://ucaism.org/foundation-papers/",
+  "name": "Foundation Papers",
+  "description": "Long-form conceptual papers establishing the UCAISM research architecture.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+
+### Policy Briefs
+
+```html
+<!-- Policy Briefs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://ucaism.org/policy-briefs/#webpage",
+  "url": "https://ucaism.org/policy-briefs/",
+  "name": "Policy Briefs",
+  "description": "Concise policy guidance connecting UCAISM research to public decisions.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+
+### Working Papers
+
+```html
+<!-- Working Papers -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://ucaism.org/working-papers/#webpage",
+  "url": "https://ucaism.org/working-papers/",
+  "name": "Working Papers",
+  "description": "Pre-publication research notes, drafts, and evolving institutional design papers.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+
+### Media Kit
+
+```html
+<!-- Media Kit -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://ucaism.org/media-kit/#webpage",
+  "url": "https://ucaism.org/media-kit/",
+  "name": "Media Kit",
+  "description": "Official media resources for UCAISM Global Initiative and Chang-Gyu Kwag.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+
+### Citation Center
+
+```html
+<!-- Citation Center -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://ucaism.org/citation-center/#webpage",
+  "url": "https://ucaism.org/citation-center/",
+  "name": "Citation Center",
+  "description": "Official citation guidance for UCAISM books, papers, policy briefs, and web resources.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+
+### News & Insights
+
+```html
+<!-- News & Insights -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "@id": "https://ucaism.org/news-insights/#webpage",
+  "url": "https://ucaism.org/news-insights/",
+  "name": "News & Insights",
+  "description": "Commentary, research updates, book news, and institutional announcements.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+
+### Newsletter
+
+```html
+<!-- Newsletter -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://ucaism.org/newsletter/#webpage",
+  "url": "https://ucaism.org/newsletter/",
+  "name": "Newsletter",
+  "description": "Newsletter signup and archive for UCAISM research digests and updates.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+
+### Events
+
+```html
+<!-- Events -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EventSeries",
+  "@id": "https://ucaism.org/events/#webpage",
+  "url": "https://ucaism.org/events/",
+  "name": "Events",
+  "description": "Lectures, seminars, policy briefings, book talks, and global dialogues.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en",
+  "organizer": {
+    "@id": "https://ucaism.org/#organization"
+  }
+}
+</script>
+```
+
+### Global Community
+
+```html
+<!-- Global Community -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://ucaism.org/global-community/#webpage",
+  "url": "https://ucaism.org/global-community/",
+  "name": "Global Community",
+  "description": "Participation pathways for readers, researchers, policymakers, educators, partners, and media audiences.",
+  "isPartOf": {
+    "@id": "https://ucaism.org/#website"
+  },
+  "publisher": {
+    "@id": "https://ucaism.org/#organization"
+  },
+  "inLanguage": "en"
+}
+</script>
+```
+

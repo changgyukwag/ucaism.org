@@ -1,27 +1,31 @@
-# UCAISM.org — Phase E-1 SEO Foundation
+# UCAISM.org — Phase E-2 Schema.org Structured Data
 
-This package adds the first Phase E optimization layer for UCAISM.org.
+This package adds a structured-data layer for UCAISM.org. It is designed for a static GitHub Pages site and does not require a backend.
 
-## What it adds
+## What this phase adds
 
-- `robots.txt`
-- `sitemap.xml`
-- `.gitattributes` LF normalization preservation
-- `data/seo-pages.json` page-level SEO metadata map
-- `docs/phase-e-seo-head-snippets.html` reusable SEO head snippet
-- `docs/page-seo-map.md` editorial SEO guide
-- `assets/js/seo-health-check.js` optional local metadata checker
+- Institutional Schema.org identity for UCAISM Global Initiative
+- Author Schema.org identity for Chang-Gyu Kwag
+- WebSite schema with a search action target
+- Book schema for *Open Wins: The New Enlightenment*
+- Page-level JSON-LD for Research Library, Foundation Papers, Policy Briefs, Working Papers, Media Kit, Citation Center, News & Insights, Newsletter, Events, and Global Community
+- A structured schema data file for future automation
+- Optional local schema health-check script
 
 ## Installation
 
-1. Copy all files and folders into the root of the existing `ucaism.org` GitHub Pages repository.
-2. Overwrite `.gitattributes` only if the current file matches the Phase D version.
-3. Do not delete existing pages.
-4. Commit and push through GitHub Desktop.
-5. After deployment, verify:
-   - https://ucaism.org/robots.txt
-   - https://ucaism.org/sitemap.xml
+1. Copy the files and folders in this package into the root of the existing `ucaism.org` repository.
+2. Keep `.gitattributes` in the root directory.
+3. Use `docs/schema-jsonld-snippets.html` or `docs/schema-jsonld-snippets.md` to add page-specific JSON-LD blocks into the `<head>` of each corresponding HTML page.
+4. Do not add every internal-page schema block to every page. Use only the relevant block for the page being edited.
+5. Commit and push through GitHub Desktop.
+
+## Recommended application order
+
+1. Add the Organization, Person, WebSite, and Book blocks to the home page.
+2. Add the matching page-specific block to each Phase D page.
+3. Test published pages with a rich-results or schema validation tool.
 
 ## Notes
 
-This package does not automatically rewrite every existing HTML page. It adds the SEO infrastructure and canonical metadata plan. Phase E-2 will add structured data. Phase E-3 will add Open Graph and Twitter Card sharing templates.
+This phase prepares the site for Phase E-3 Open Graph & Twitter Cards. Schema.org helps search engines understand the institutional and publication structure of the website; Open Graph and Twitter Cards help shared links look professional on social platforms.
