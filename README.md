@@ -1,26 +1,15 @@
-# UCAISM.org — Phase F-2 Navigation Consolidation
+# UCAISM.org — Phase F-3 Head Metadata Integration Pass
 
-This package adds a safe, additive navigation consolidation layer after the Phase D and Phase E expansion.
+This package provides a controlled integration layer for applying SEO, Schema.org, Open Graph, Twitter Cards, and hreflang metadata to UCAISM.org pages.
 
-## Included files
+## Install
 
-- `docs/navigation-consolidated-header-snippet.html`
-- `docs/navigation-migration-checklist.md`
-- `docs/footer-consolidation-guide.md`
-- `data/navigation-structure.json`
-- `assets/css/phase-f-navigation.css`
-- `assets/js/navigation-menu.js`
-- `.gitattributes`
-- `COMMIT_MESSAGE.md`
+Copy the contents of this folder into the root of the existing `ucaism.org` GitHub Pages repository. Overwrite matching files when prompted. Do not delete existing HTML pages.
 
-## Use
+## What this phase does
 
-Copy the package contents into the repository root. This package does not delete or overwrite existing page content. It provides a consolidated navigation snippet, CSS, JS, and documentation for applying the new menu structure safely.
+This phase does not automatically rewrite every HTML page. It provides page-specific metadata maps, reusable snippets, and QA tooling so metadata can be integrated safely page by page.
 
-## Recommended top navigation
+## Recommended next action
 
-Home / Research / Books / Insights / Media / Community
-
-## Deploy
-
-Commit and push through GitHub Desktop after checking the changed files.
+Start with the homepage, then Research Library, Foundation Papers, Policy Briefs, and Working Papers.

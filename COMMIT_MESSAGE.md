@@ -1,12 +1,13 @@
-Summary:
-Add Phase F-2 navigation consolidation
+# Commit Summary
 
-Description:
-- Added a navigation consolidation layer for UCAISM.org after the Phase D and Phase E platform expansion.
-- Created a simplified top-level navigation model: Home, Research, Books, Insights, Media, and Community.
-- Grouped research pages, book pages, insights, media resources, and community engagement pages into clearer institutional categories.
-- Added a reusable consolidated header snippet for careful page-by-page integration.
-- Added additive navigation CSS and a lightweight dropdown/mobile menu script while preserving GitHub Pages compatibility.
-- Added footer consolidation guidance so the header stays simple while deeper platform links remain discoverable.
-- Added structured navigation data for future maintenance and QA.
+Add Phase F-3 head metadata integration pass
+
+# Commit Description
+
+- Added a controlled head metadata integration pass for UCAISM.org after the Phase E optimization foundation.
+- Added a page-by-page guide for safely applying SEO titles, descriptions, canonical URLs, Open Graph, Twitter Cards, Schema.org JSON-LD, and hreflang tags.
+- Added homepage and research-platform head metadata snippets for high-priority pages.
+- Added an hreflang integration snippet for multilingual page equivalents.
+- Added a structured metadata inventory for core UCAISM.org pages and their recommended schema types.
+- Added a browser-console head metadata health checker for local QA.
 - Preserved LF line-ending normalization through .gitattributes.

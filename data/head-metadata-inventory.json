@@ -1,0 +1,96 @@
+{
+  "phase": "F-3",
+  "name": "Head Metadata Integration Pass",
+  "site": "https://ucaism.org/",
+  "defaultSocialImage": "https://ucaism.org/assets/images/social/ucaism-social-card.svg",
+  "pages": [
+    {
+      "path": "/",
+      "title": "UCAISM Global Initiative | Individual Sovereignty in the Age of AI",
+      "description": "UCAISM Global Initiative is an independent research and public-education initiative founded by Chang-Gyu Kwag, advancing individual sovereignty, fiduciary AI, open digital infrastructure, and Intelligent Capitalism.",
+      "canonical": "https://ucaism.org/",
+      "schemaType": "ResearchOrganization",
+      "priority": 1
+    },
+    {
+      "path": "/research-library/",
+      "title": "Research Library",
+      "description": "Explore UCAISM books, foundation papers, policy briefs, working papers, media resources, and research materials in one global library.",
+      "canonical": "https://ucaism.org/research-library/",
+      "schemaType": "CollectionPage",
+      "priority": 2
+    },
+    {
+      "path": "/foundation-papers/",
+      "title": "Foundation Papers",
+      "description": "Read the foundational research papers behind UCAISM, the Sovereignty Gap, fiduciary AI, open digital infrastructure, and Intelligent Capitalism.",
+      "canonical": "https://ucaism.org/foundation-papers/",
+      "schemaType": "CollectionPage",
+      "priority": 3
+    },
+    {
+      "path": "/policy-briefs/",
+      "title": "Policy Briefs",
+      "description": "Concise policy briefs translating UCAISM research into practical guidance for AI governance, platform reform, data sovereignty, and public digital infrastructure.",
+      "canonical": "https://ucaism.org/policy-briefs/",
+      "schemaType": "CollectionPage",
+      "priority": 4
+    },
+    {
+      "path": "/working-papers/",
+      "title": "Working Papers",
+      "description": "Pre-publication working papers and evolving research notes on UCAISM, platform power, fiduciary AI, and Intelligent Capitalism.",
+      "canonical": "https://ucaism.org/working-papers/",
+      "schemaType": "CollectionPage",
+      "priority": 5
+    },
+    {
+      "path": "/media-kit/",
+      "title": "Media Kit",
+      "description": "Official media resources for UCAISM Global Initiative, Chang-Gyu Kwag, Open Wins, interviews, events, and public commentary.",
+      "canonical": "https://ucaism.org/media-kit/",
+      "schemaType": "AboutPage",
+      "priority": 6
+    },
+    {
+      "path": "/citation-center/",
+      "title": "Citation Center",
+      "description": "Official citation guidance for UCAISM books, papers, policy briefs, working papers, and institutional resources.",
+      "canonical": "https://ucaism.org/citation-center/",
+      "schemaType": "CollectionPage",
+      "priority": 7
+    },
+    {
+      "path": "/news-insights/",
+      "title": "News & Insights",
+      "description": "Commentary, research updates, book news, media notes, and institutional insights from UCAISM Global Initiative.",
+      "canonical": "https://ucaism.org/news-insights/",
+      "schemaType": "CollectionPage",
+      "priority": 8
+    },
+    {
+      "path": "/newsletter/",
+      "title": "Newsletter",
+      "description": "Subscribe to UCAISM updates, research digests, policy notes, book updates, and platform announcements.",
+      "canonical": "https://ucaism.org/newsletter/",
+      "schemaType": "WebPage",
+      "priority": 9
+    },
+    {
+      "path": "/events/",
+      "title": "Events",
+      "description": "Lectures, seminars, book talks, policy briefings, and global dialogues hosted or featured by UCAISM Global Initiative.",
+      "canonical": "https://ucaism.org/events/",
+      "schemaType": "CollectionPage",
+      "priority": 10
+    },
+    {
+      "path": "/global-community/",
+      "title": "Global Community",
+      "description": "Connect with UCAISM as a reader, researcher, policymaker, educator, institutional partner, or media audience.",
+      "canonical": "https://ucaism.org/global-community/",
+      "schemaType": "WebPage",
+      "priority": 11
+    }
+  ]
+}
