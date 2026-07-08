@@ -1,41 +1,17 @@
-# Intelligent Capitalism Cover Replacement
+# UCAISM — Intelligent Capitalism Cover Force Replacement
 
-This package replaces the website cover image for **Intelligent Capitalism** with the attached revised cover.
+This package fixes the issue where the revised cover asset was uploaded but the live page still displayed the old cover.
 
-## Files
+It includes the revised cover under multiple likely asset paths and provides a direct HTML replacement snippet.
 
-- `assets/images/books/intelligent-capitalism-cover.png`
-- `assets/images/books/intelligent-capitalism-cover.webp`
-- `assets/images/books/intelligent-capitalism-cover-thumb.webp`
-- `data/intelligent-capitalism-cover.json`
-- `docs/intelligent-capitalism-cover-html-snippet.html`
+## Primary path
 
-## Recommended integration
-
-1. Copy the package contents into the root of the `ucaism.org` repository.
-2. In the page where **Intelligent Capitalism** appears, find the current cover image.
-3. Replace the old image path with:
+Use this in the live HTML:
 
 ```html
 /assets/images/books/intelligent-capitalism-cover.webp
 ```
 
-or use the full `<picture>` snippet in:
+## Required action
 
-```text
-docs/intelligent-capitalism-cover-html-snippet.html
-```
-
-## Alt text
-
-Use:
-
-```text
-Cover of Intelligent Capitalism by Chang-Gyu Kwag
-```
-
-## Notes
-
-- The PNG file preserves the uploaded cover.
-- The WebP file is recommended for faster loading.
-- The thumbnail WebP can be used for cards, grids, and mobile previews.
+If the old cover still appears after copying this package, update the existing HTML `<img src="...">` for the Intelligent Capitalism card or section. The browser cannot switch to the new cover unless the page points to the new image path or the old image file has been overwritten.

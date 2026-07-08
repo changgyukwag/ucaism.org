@@ -1,13 +1,12 @@
-# Commit Message
+# Commit Summary
 
-## Summary
+Force replace Intelligent Capitalism cover image
 
-Replace Intelligent Capitalism cover image
+# Commit Description
 
-## Description
-
-- Replaced the website cover asset for Intelligent Capitalism with the revised cover image.
-- Added optimized PNG, WebP, and thumbnail WebP versions for flexible website use.
-- Added a reusable HTML picture snippet for safe integration into the Intelligent Capitalism section.
-- Added structured cover metadata for future maintenance.
-- Preserved a clean web-friendly file naming convention for GitHub Pages.
+- Added the revised Intelligent Capitalism cover image under multiple likely website asset paths to support safe replacement of legacy references.
+- Added optimized PNG and WebP versions for the main cover image.
+- Added thumbnail WebP assets for cards, lists, and mobile display.
+- Added a direct HTML replacement snippet for the Intelligent Capitalism cover block.
+- Added a force replacement guide explaining how to update the existing image src if the live page still points to an old asset path.
+- Preserved LF line-ending normalization through .gitattributes.

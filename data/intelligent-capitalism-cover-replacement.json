@@ -1,0 +1,7 @@
+{
+  "title": "Intelligent Capitalism",
+  "primaryAsset": "/assets/images/books/intelligent-capitalism-cover.webp",
+  "fallbackAsset": "/assets/images/books/intelligent-capitalism-cover.png",
+  "thumbnailAsset": "/assets/images/books/intelligent-capitalism-cover-thumb.webp",
+  "note": "Force replacement package includes duplicate assets under common legacy paths. If the site still shows the old cover, update the HTML img src to the primaryAsset path or clear browser/GitHub Pages cache."
+}
