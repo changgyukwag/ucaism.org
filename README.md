@@ -1,23 +1,23 @@
-# UCAISM.org Phase D-6 — Citation Center
+# UCAISM.org Phase D-7 — News & Insights
 
-This package adds a dedicated Citation Center to UCAISM.org.
+This package adds the Phase D-7 News & Insights hub to UCAISM.org.
 
-## Installation
+## Install
 
-1. Unzip the package.
-2. Copy all files and folders into the root of the existing `ucaism.org` GitHub Pages repository.
-3. Overwrite files with the same names when prompted.
-4. Do not delete existing site files.
-5. Confirm that `.gitattributes` remains in the repository root.
-6. Review changes in GitHub Desktop.
-7. Commit and push.
+Copy the contents of this folder into the root of the existing `ucaism.org` GitHub Pages repository.
 
-## Test URL
+Do not delete existing files. Overwrite matching files when prompted.
 
-https://ucaism.org/citation-center/
+## Added files
 
-## Notes
+- `news-insights/index.html`
+- `assets/js/news-insights.js`
+- `data/news-insights.json`
+- updated `assets/css/phase-d-research.css`
+- updated `docs/navigation-integration-snippet.html`
+- `.gitattributes`
+- `COMMIT_MESSAGE.md`
 
-- This is an additive Phase D expansion.
-- It preserves the existing GitHub Pages static-site structure.
-- It keeps LF line-ending normalization through `.gitattributes`.
+## URL after deployment
+
+`https://ucaism.org/news-insights/`

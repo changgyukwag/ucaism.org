@@ -1,0 +1,55 @@
+{
+  "collection": "News & Insights",
+  "phase": "D-7",
+  "description": "Seed data for UCAISM.org news, commentary, research updates, book news, media notes, and institutional insights.",
+  "items": [
+    {
+      "id": "NI-001",
+      "type": "commentary",
+      "title": "The New Enlightenment in the Age of AI",
+      "status": "coming-soon",
+      "series": "The New Enlightenment",
+      "keywords": ["AI", "individual sovereignty", "UCAISM", "Intelligent Capitalism"]
+    },
+    {
+      "id": "NI-002",
+      "type": "research-update",
+      "title": "Building the UCAISM Research Platform",
+      "status": "draft-placeholder",
+      "series": "Book & Research Updates",
+      "keywords": ["Research Library", "Foundation Papers", "Policy Briefs", "Working Papers"]
+    },
+    {
+      "id": "NI-003",
+      "type": "book-news",
+      "title": "Open Wins and the Public Language of Sovereignty",
+      "status": "draft-placeholder",
+      "series": "Book & Research Updates",
+      "keywords": ["Open Wins", "The New Enlightenment", "book news"]
+    },
+    {
+      "id": "NI-004",
+      "type": "commentary",
+      "title": "Why Open Rails Matter",
+      "status": "draft-placeholder",
+      "series": "Open Rails Watch",
+      "keywords": ["digital public infrastructure", "interoperability", "open rails"]
+    },
+    {
+      "id": "NI-005",
+      "type": "media",
+      "title": "Interview Themes for UCAISM",
+      "status": "draft-placeholder",
+      "series": "Media Notes",
+      "keywords": ["Media Kit", "interview", "press"]
+    },
+    {
+      "id": "NI-006",
+      "type": "institutional",
+      "title": "What Is UCAISM Global Initiative?",
+      "status": "draft-placeholder",
+      "series": "Institutional Notes",
+      "keywords": ["UCAISM Global Initiative", "public education", "research initiative"]
+    }
+  ]
+}

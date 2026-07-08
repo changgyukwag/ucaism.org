@@ -1,14 +1,14 @@
 # Commit Summary
 
-Add Phase D-6 Citation Center
+Add Phase D-7 News & Insights
 
 # Commit Description
 
-- Added a dedicated Citation Center for the UCAISM.org global research platform.
-- Created official citation guidance for books, forthcoming works, foundation papers, policy briefs, working papers, and institutional website references.
-- Added Chicago-style, APA-style, and suggested citation templates for core UCAISM materials.
-- Added static search and filtering by citation type while preserving GitHub Pages compatibility.
-- Extended the Phase D research stylesheet with additive Citation Center components and LF line endings.
-- Added structured seed data for future BibTeX, RIS, DOI, ISBN, PDF, and publication metadata integration.
-- Preserved line-ending normalization through `.gitattributes`.
-- Included an optional navigation snippet for safely adding Citation Center to the site menu.
+- Added a dedicated News & Insights hub for the UCAISM.org global research platform.
+- Created a living editorial layer for commentary, research updates, book news, media notes, and institutional announcements.
+- Added initial insight categories for commentary, research updates, book news, media, and institutional posts.
+- Added static search and filtering while preserving GitHub Pages compatibility.
+- Extended the Phase D research stylesheet with additive News & Insights components and LF line endings.
+- Added structured seed data for future posts, editorial series, archive pages, and newsletter integration.
+- Preserved line-ending normalization through .gitattributes.
+- Included an optional navigation snippet for safely adding News & Insights to the site menu.
