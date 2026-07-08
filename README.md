@@ -1,24 +1,22 @@
-# UCAISM.org — Phase D-1 Research Library
+# UCAISM.org Phase D-2 — Foundation Papers
 
-This package adds the first Phase D research-platform module to UCAISM.org.
+This package adds the Foundation Papers hub for UCAISM.org.
 
 ## Files included
 
-- `research-library/index.html` — new Research Library page
-- `assets/css/phase-d-research.css` — additive stylesheet for Phase D research-platform components
-- `assets/js/research-library.js` — static search and filter behavior
-- `data/research-library.json` — reusable catalog data seed
-- `docs/navigation-integration-snippet.html` — optional nav link snippet
+- `foundation-papers/index.html` — new Foundation Papers page
+- `assets/css/phase-d-research.css` — Phase D stylesheet including D-1 base styles and D-2 additions
+- `assets/js/foundation-papers.js` — lightweight static filter behavior
+- `data/foundation-papers.json` — structured seed data for the Foundation Papers series
+- `docs/navigation-integration-snippet.html` — optional navigation link snippet
 - `COMMIT_MESSAGE.md` — GitHub Desktop commit summary and description
 
-## Installation
+## Deployment
 
-1. Unzip this package.
-2. Copy the folders into the root of the existing UCAISM.org GitHub Pages repository.
-3. Do not delete or overwrite existing files unless GitHub Desktop clearly shows this package is adding the intended files only.
-4. If the current site navigation has a Research or Publications menu, add the link from `docs/navigation-integration-snippet.html`.
-5. Open `research-library/index.html` locally or through the GitHub Pages preview URL after pushing.
+Copy the contents of this folder into the root of the existing GitHub Pages repository. Do not delete existing files. This package is designed to extend the Phase D-1 Research Library safely.
 
-## Design note
+After pushing, test:
 
-The stylesheet is intentionally additive. It does not replace the existing global CSS, so it should not break existing pages.
+- `https://ucaism.org/foundation-papers/`
+- the breadcrumb link back to `/research-library/`
+- the filter buttons on the Foundation Papers page

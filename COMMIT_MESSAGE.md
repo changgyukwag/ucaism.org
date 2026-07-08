@@ -1,10 +1,10 @@
 Commit Summary:
-Add Phase D-1 Research Library
+Add Phase D-2 Foundation Papers
 
 Commit Description:
-- Added a new Research Library page for UCAISM.org as the first step of the Phase D global research platform expansion.
-- Created a research-institution style catalog structure for books, foundation papers, policy briefs, working papers, and media resources.
-- Added static search and type filtering without requiring a backend, database, or external dependency.
-- Added an additive Phase D stylesheet that preserves the existing site design system while introducing research-platform components.
-- Added structured metadata and a JSON-LD CollectionPage schema for the Research Library.
-- Included a reusable data file and optional navigation snippet for safe GitHub Pages integration.
+- Added a dedicated Foundation Papers hub for the UCAISM.org global research platform.
+- Created a long-form research series structure for UCAISM, the Sovereignty Gap, platform power, fiduciary AI, open rails, and Intelligent Capitalism.
+- Added static filtering by research track while preserving GitHub Pages compatibility.
+- Extended the Phase D research stylesheet with additive Foundation Papers components.
+- Added structured seed data for future paper metadata, abstracts, publication status, PDF links, and citation integration.
+- Included an optional navigation snippet for safely adding Foundation Papers to the site menu.

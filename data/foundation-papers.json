@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fp-01",
+    "title": "UCAISM: Model, Movement, Ideology",
+    "track": "Architecture",
+    "status": "In development",
+    "topics": ["UCAISM", "New Enlightenment", "Individual Sovereignty"]
+  },
+  {
+    "id": "fp-02",
+    "title": "The Sovereignty Gap",
+    "track": "Architecture",
+    "status": "Planned",
+    "topics": ["AI Age", "Institutional Design", "Agency"]
+  },
+  {
+    "id": "fp-03",
+    "title": "The Visible Fist and Platform Feudalism",
+    "track": "Economics",
+    "status": "Planned",
+    "topics": ["Platform Economy", "Behavioral Enclosure", "Market Power"]
+  },
+  {
+    "id": "fp-04",
+    "title": "The Sovereign Vault and Fiduciary AI",
+    "track": "Governance",
+    "status": "Planned",
+    "topics": ["Data Sovereignty", "AI Fiduciary", "Consent Architecture"]
+  },
+  {
+    "id": "fp-05",
+    "title": "Open Rails for Sovereign Markets",
+    "track": "DPI",
+    "status": "Planned",
+    "topics": ["Digital Public Infrastructure", "Interoperability", "Open Rails"]
+  },
+  {
+    "id": "fp-06",
+    "title": "Intelligent Capitalism and The Third Architecture",
+    "track": "Economics",
+    "status": "Forthcoming",
+    "topics": ["Intelligent Capitalism", "Third Architecture", "Political Economy"]
+  }
+]
