@@ -1,31 +1,21 @@
-# UCAISM.org — Phase E-4 Multilingual Foundation
+# UCAISM.org — Phase E-5 Performance Optimization
 
-This package adds the multilingual foundation layer for UCAISM.org.
+This package adds a performance optimization foundation for the UCAISM.org GitHub Pages site.
 
-## What this phase adds
+## Files included
 
-- Korean, Japanese, and Spanish foundation landing pages.
-- A dedicated Phase E multilingual stylesheet.
-- A lightweight language switcher script.
-- Locale metadata and hreflang mapping data.
-- Documentation for hreflang tags and translation style governance.
+- `data/performance-checklist.json`
+- `docs/performance-head-snippets.html`
+- `docs/performance-optimization-guide.md`
+- `assets/js/performance-health-check.js`
+- `.gitattributes`
+- `README.md`
+- `COMMIT_MESSAGE.md`
 
 ## Installation
 
-1. Copy all files and folders from this package into the root of the existing `ucaism.org` GitHub Pages repository.
-2. Overwrite matching files when prompted.
-3. Do not delete existing pages.
-4. Confirm that `.gitattributes` remains at the repository root.
-5. Commit and push through GitHub Desktop.
-
-## After deployment
-
-Check:
-
-- `https://ucaism.org/ko/`
-- `https://ucaism.org/ja/`
-- `https://ucaism.org/es/`
+Copy all files and folders from this package into the root of the existing `ucaism.org` repository. Overwrite matching files only when prompted. Do not delete existing pages.
 
 ## Notes
 
-These pages are foundation pages, not final full translations of the entire website. They establish the language architecture, metadata conventions, hreflang pattern, and translation governance needed for future multilingual expansion.
+This phase does not aggressively rewrite existing HTML. It provides the optimization rules, snippets, and a local health-check script needed to improve page performance safely during future passes.

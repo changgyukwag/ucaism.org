@@ -1,0 +1,43 @@
+{
+  "phase": "E-5",
+  "title": "Performance Optimization",
+  "site": "https://ucaism.org/",
+  "principles": [
+    "Keep GitHub Pages static and dependency-light.",
+    "Prefer additive optimization over disruptive rewrites.",
+    "Preserve the existing design system and navigation.",
+    "Optimize images, CSS, JavaScript, metadata, and caching behavior incrementally."
+  ],
+  "targets": {
+    "largestContentfulPaint": "under 2.5s when possible",
+    "cumulativeLayoutShift": "under 0.1",
+    "interactionToNextPaint": "under 200ms where measurable",
+    "pageWeight": "keep each page as light as possible; defer non-critical scripts"
+  },
+  "checks": [
+    {
+      "area": "Images",
+      "action": "Use width and height attributes, loading=lazy for below-fold images, and modern formats where possible."
+    },
+    {
+      "area": "CSS",
+      "action": "Keep Phase CSS additive, remove duplicate rules in later consolidation passes, and avoid unnecessary third-party CSS."
+    },
+    {
+      "area": "JavaScript",
+      "action": "Load static filtering scripts with defer and keep each page script small."
+    },
+    {
+      "area": "Fonts",
+      "action": "Use system fonts or preconnect for external font providers if used."
+    },
+    {
+      "area": "Caching",
+      "action": "Document GitHub Pages caching limits and use stable asset paths where possible."
+    },
+    {
+      "area": "Accessibility",
+      "action": "Maintain semantic headings, alt text, contrast, and keyboard-friendly controls."
+    }
+  ]
+}
