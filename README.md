@@ -1,3 +1,3 @@
-# UCAISM.org Phase C-4
+# UCAISM.org Phase C-4.1
 
-Publications Center: books, foundation papers, working papers, policy briefs, citations, and download-ready structure.
+Publications Center layout fix: constrained publication cover images and rebuilt publication cards.
