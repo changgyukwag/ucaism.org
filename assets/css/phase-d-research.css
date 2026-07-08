@@ -477,3 +477,153 @@
   .foundation-paper-grid,
   .series-grid { grid-template-columns: 1fr; }
 }
+
+
+/* Phase D-3 Policy Briefs additions */
+.policy-hero {
+  background:
+    radial-gradient(circle at 82% 20%, rgba(230, 197, 119, 0.24), transparent 30%),
+    linear-gradient(135deg, #0b1726 0%, #163052 50%, #10233d 100%);
+}
+.policy-overview { padding: 72px 0 0; }
+.policy-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 18px;
+}
+.policy-panel,
+.policy-stat,
+.policy-brief-card,
+.policy-audience-card,
+.policy-template-card,
+.policy-note {
+  background: var(--ucaism-surface);
+  border: 1px solid var(--ucaism-line);
+  border-radius: var(--ucaism-radius-lg);
+  box-shadow: var(--ucaism-shadow);
+}
+.policy-panel { padding: 32px; }
+.policy-panel h2,
+.policy-brief-card h3,
+.policy-audience-card h3,
+.policy-template-card h3,
+.policy-note h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.13;
+  letter-spacing: -0.025em;
+}
+.policy-panel h2,
+.policy-note h2 { font-size: clamp(2rem, 4vw, 3rem); }
+.policy-panel p,
+.policy-brief-card p,
+.policy-audience-card p,
+.policy-template-card p,
+.policy-note p { color: var(--ucaism-muted); }
+.policy-stats {
+  display: grid;
+  gap: 18px;
+}
+.policy-stat { padding: 26px; }
+.policy-stat strong {
+  display: block;
+  color: var(--ucaism-gold-dark);
+  font-size: 2.15rem;
+  line-height: 1;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.policy-stat span { color: var(--ucaism-muted); font-weight: 750; }
+.policy-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 22px 0;
+}
+.policy-filter {
+  border: 1px solid var(--ucaism-line);
+  background: #fff;
+  color: var(--ucaism-ink);
+  border-radius: 999px;
+  padding: 9px 13px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+.policy-filter.is-active,
+.policy-filter:hover {
+  color: #fff;
+  background: var(--ucaism-navy);
+}
+.policy-brief-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.policy-brief-card {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+}
+.policy-brief-card h3 { font-size: 1.38rem; }
+.brief-number {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 16px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--ucaism-surface-soft);
+  color: var(--ucaism-gold-dark);
+  font-weight: 900;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.brief-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 0;
+}
+.brief-meta span {
+  border: 1px solid var(--ucaism-line);
+  border-radius: 999px;
+  padding: 5px 9px;
+  color: var(--ucaism-muted);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+.brief-status {
+  margin-top: auto;
+  padding-top: 16px;
+  color: var(--ucaism-gold-dark);
+  font-weight: 900;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.policy-audience-grid,
+.policy-template-grid {
+  display: grid;
+  gap: 18px;
+}
+.policy-audience-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.policy-template-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.policy-audience-card,
+.policy-template-card { padding: 24px; }
+.policy-audience-card h3,
+.policy-template-card h3 { font-size: 1.18rem; }
+.policy-note { padding: 34px; }
+.policy-note ul { margin: 16px 0 0; padding-left: 20px; color: var(--ucaism-muted); }
+.policy-note li + li { margin-top: 8px; }
+@media (max-width: 980px) {
+  .policy-grid,
+  .policy-brief-grid,
+  .policy-audience-grid,
+  .policy-template-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 680px) {
+  .policy-grid,
+  .policy-brief-grid,
+  .policy-audience-grid,
+  .policy-template-grid { grid-template-columns: 1fr; }
+}

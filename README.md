@@ -1,22 +1,32 @@
-# UCAISM.org Phase D-2 — Foundation Papers
+# UCAISM.org — Phase D-3: Policy Briefs + LF Normalization
 
-This package adds the Foundation Papers hub for UCAISM.org.
+This package adds the Phase D-3 Policy Briefs hub to UCAISM.org and adds a repository-level `.gitattributes` file to keep web source files normalized to LF line endings.
 
-## Files included
+## Included files
 
-- `foundation-papers/index.html` — new Foundation Papers page
-- `assets/css/phase-d-research.css` — Phase D stylesheet including D-1 base styles and D-2 additions
-- `assets/js/foundation-papers.js` — lightweight static filter behavior
-- `data/foundation-papers.json` — structured seed data for the Foundation Papers series
-- `docs/navigation-integration-snippet.html` — optional navigation link snippet
-- `COMMIT_MESSAGE.md` — GitHub Desktop commit summary and description
+- `.gitattributes`
+- `policy-briefs/index.html`
+- `assets/css/phase-d-research.css`
+- `assets/js/policy-briefs.js`
+- `data/policy-briefs.json`
+- `docs/navigation-integration-snippet.html`
+- `COMMIT_MESSAGE.md`
 
-## Deployment
+## Installation
 
-Copy the contents of this folder into the root of the existing GitHub Pages repository. Do not delete existing files. This package is designed to extend the Phase D-1 Research Library safely.
+1. Download and unzip this package.
+2. Copy the contents of `ucaism_phase_d3_policy_briefs_LF_Normalized` into the root of the existing `ucaism.org` GitHub Pages repository.
+3. Allow files with the same names to be overwritten.
+4. Confirm that `.gitattributes` is placed at the repository root, not inside another folder.
+5. In GitHub Desktop, confirm the changed files and check that the previous LF-to-CRLF warning is gone or reduced.
+6. Commit with the summary and description in `COMMIT_MESSAGE.md`.
+7. Push to GitHub.
+8. After deployment, check `https://ucaism.org/policy-briefs/`.
 
-After pushing, test:
+## Commit Summary
 
-- `https://ucaism.org/foundation-papers/`
-- the breadcrumb link back to `/research-library/`
-- the filter buttons on the Foundation Papers page
+Add Phase D-3 Policy Briefs and normalize line endings
+
+## Note
+
+If GitHub Desktop still shows a line-ending warning for a file that was already converted locally, open the file in VS Code, change the lower-right line ending indicator from `CRLF` to `LF`, save, and refresh GitHub Desktop. The `.gitattributes` file will prevent the same issue from repeating in future commits.

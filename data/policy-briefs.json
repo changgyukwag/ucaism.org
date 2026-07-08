@@ -1,0 +1,114 @@
+[
+  {
+    "id": "PB-01",
+    "title": "AI Governance for Individual Sovereignty",
+    "track": "AI Governance",
+    "status": "In development",
+    "format": "Policy Brief",
+    "length": "4-6 pages",
+    "audience": [
+      "Policymakers",
+      "AI governance readers"
+    ],
+    "foundation_paper": "FP-01 / FP-02",
+    "url": "/policy-briefs/"
+  },
+  {
+    "id": "PB-02",
+    "title": "Platform Power and Contestable Markets",
+    "track": "Platform Reform",
+    "status": "Planned",
+    "format": "Policy Brief",
+    "length": "4-6 pages",
+    "audience": [
+      "Regulators",
+      "Policy researchers"
+    ],
+    "foundation_paper": "FP-03",
+    "url": "/policy-briefs/"
+  },
+  {
+    "id": "PB-03",
+    "title": "Personal Data as Governed Custody",
+    "track": "Data Sovereignty",
+    "status": "Planned",
+    "format": "Policy Brief",
+    "length": "4-6 pages",
+    "audience": [
+      "Institutions",
+      "Data governance readers"
+    ],
+    "foundation_paper": "FP-04",
+    "url": "/policy-briefs/"
+  },
+  {
+    "id": "PB-04",
+    "title": "Open Rails for Shared Prosperity",
+    "track": "Digital Public Infrastructure",
+    "status": "Planned",
+    "format": "Policy Brief",
+    "length": "4-6 pages",
+    "audience": [
+      "Public sector",
+      "DPI readers"
+    ],
+    "foundation_paper": "FP-05",
+    "url": "/policy-briefs/"
+  },
+  {
+    "id": "PB-05",
+    "title": "The Sovereignty Gap Test",
+    "track": "AI Governance",
+    "status": "Planned",
+    "format": "Checklist Brief",
+    "length": "2-4 pages",
+    "audience": [
+      "Institutional leaders",
+      "Civic groups"
+    ],
+    "foundation_paper": "FP-02",
+    "url": "/policy-briefs/"
+  },
+  {
+    "id": "PB-06",
+    "title": "Interoperability as Freedom to Exit",
+    "track": "Platform Reform",
+    "status": "Planned",
+    "format": "Policy Brief",
+    "length": "4-6 pages",
+    "audience": [
+      "Competition policy readers",
+      "Digital market readers"
+    ],
+    "foundation_paper": "FP-03 / FP-05",
+    "url": "/policy-briefs/"
+  },
+  {
+    "id": "PB-07",
+    "title": "Human Dividend in the Age of Automation",
+    "track": "Data Sovereignty",
+    "status": "Forthcoming",
+    "format": "Policy Brief",
+    "length": "4-6 pages",
+    "audience": [
+      "Public education",
+      "Future of work readers"
+    ],
+    "foundation_paper": "FP-06",
+    "url": "/policy-briefs/"
+  },
+  {
+    "id": "PB-08",
+    "title": "National Reciprocity Loop",
+    "track": "Digital Public Infrastructure",
+    "status": "Planned",
+    "format": "Strategy Brief",
+    "length": "4-6 pages",
+    "audience": [
+      "Strategy readers",
+      "Public institutions"
+    ],
+    "foundation_paper": "FP-05 / FP-06",
+    "url": "/policy-briefs/"
+  }
+]
