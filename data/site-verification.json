@@ -1,0 +1,47 @@
+{
+  "site": "https://ucaism.org/",
+  "phase": "E-6",
+  "verification": {
+    "googleSearchConsole": {
+      "status": "placeholder",
+      "recommendedMethods": ["URL-prefix property", "HTML meta tag", "HTML file upload", "Domain property via DNS"],
+      "metaTagName": "google-site-verification",
+      "contentPlaceholder": "REPLACE_WITH_GOOGLE_VERIFICATION_CODE"
+    },
+    "bingWebmasterTools": {
+      "status": "placeholder",
+      "recommendedMethods": ["Import from Google Search Console", "HTML meta tag", "XML file upload"],
+      "metaTagName": "msvalidate.01",
+      "contentPlaceholder": "REPLACE_WITH_BING_VERIFICATION_CODE"
+    },
+    "naverSearchAdvisor": {
+      "status": "future",
+      "recommendedMethods": ["HTML meta tag", "HTML file upload"],
+      "metaTagName": "naver-site-verification",
+      "contentPlaceholder": "REPLACE_WITH_NAVER_VERIFICATION_CODE"
+    }
+  },
+  "analytics": {
+    "preferredOptions": ["Plausible Analytics", "Simple Analytics", "Google Analytics 4 with privacy settings"],
+    "ga4": {
+      "measurementIdPlaceholder": "G-XXXXXXXXXX",
+      "privacySettings": {
+        "anonymizeIp": true,
+        "allowGoogleSignals": false,
+        "allowAdPersonalizationSignals": false
+      }
+    },
+    "plausible": {
+      "domain": "ucaism.org",
+      "script": "https://plausible.io/js/script.js"
+    }
+  },
+  "importantUrls": [
+    "https://ucaism.org/robots.txt",
+    "https://ucaism.org/sitemap.xml",
+    "https://ucaism.org/research-library/",
+    "https://ucaism.org/foundation-papers/",
+    "https://ucaism.org/policy-briefs/",
+    "https://ucaism.org/working-papers/"
+  ]
+}
