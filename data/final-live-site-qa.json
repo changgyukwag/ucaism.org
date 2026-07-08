@@ -1,0 +1,34 @@
+{
+  "project": "UCAISM.org",
+  "phase": "Final Live Site QA",
+  "status": "stabilization",
+  "principle": "Stop expanding; verify, fix, and maintain.",
+  "coreUrls": [
+    "https://ucaism.org/",
+    "https://ucaism.org/research-library/",
+    "https://ucaism.org/foundation-papers/",
+    "https://ucaism.org/policy-briefs/",
+    "https://ucaism.org/working-papers/",
+    "https://ucaism.org/media-kit/",
+    "https://ucaism.org/citation-center/",
+    "https://ucaism.org/news-insights/",
+    "https://ucaism.org/newsletter/",
+    "https://ucaism.org/events/",
+    "https://ucaism.org/global-community/",
+    "https://ucaism.org/ko/",
+    "https://ucaism.org/ja/",
+    "https://ucaism.org/es/",
+    "https://ucaism.org/robots.txt",
+    "https://ucaism.org/sitemap.xml"
+  ],
+  "qaCategories": [
+    "deployment",
+    "navigation",
+    "content credibility",
+    "mobile layout",
+    "seo metadata",
+    "social sharing",
+    "performance",
+    "maintenance readiness"
+  ]
+}

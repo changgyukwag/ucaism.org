@@ -1,13 +1,12 @@
-Commit Summary
+# Commit Summary
 
-Add Phase F-6 site QA and deployment verification
+Add final live site QA package
 
-Commit Description
+# Commit Description
 
-- Added the final Phase F site QA and deployment verification layer for UCAISM.org.
-- Added a deployment verification guide for checking the expanded global research platform after GitHub Pages push.
-- Added URL, GitHub Pages, live-site, metadata, performance, mobile, and editorial credibility QA checklists.
-- Added a Phase F completion note to shift the project from expansion mode to stabilization and maintenance mode.
-- Added structured QA data for future release review and maintenance.
-- Added an optional browser-console site QA helper for local page-level validation.
+- Added the final live site QA package for UCAISM.org after Phase A–F development.
+- Added a practical live-site checklist for verifying core pages, research platform pages, multilingual pages, robots.txt, sitemap.xml, and social/SEO readiness.
+- Added a final issue log template for recording only real problems found after GitHub Pages deployment.
+- Added a launch readiness checklist to help move the site from expansion mode to stable editorial maintenance.
+- Added a lightweight browser-console live QA helper for checking page title, description, canonical URL, Open Graph, Twitter Card, JSON-LD, images, and links.
 - Preserved LF line-ending normalization through .gitattributes.

@@ -1,19 +1,19 @@
-# UCAISM.org — Phase F-6 Site QA and Deployment Verification
+# UCAISM.org — Final Live Site QA Package
 
-This package adds the final Phase F deployment verification layer for UCAISM.org.
+This is the final stabilization package after Phase A–F.
 
-## Files included
+Use this package after committing and pushing the completed site to GitHub Pages. It is not a new feature expansion. It is a final verification kit for checking live URLs, navigation, mobile display, SEO metadata, social sharing readiness, performance, and editorial credibility.
 
-- `docs/site-qa-deployment-verification-guide.md`
-- `docs/deployment-url-checklist.md`
-- `docs/github-pages-deployment-checklist.md`
-- `docs/final-live-site-qa-checklist.md`
-- `docs/phase-f-completion-note.md`
-- `data/site-qa-deployment-verification.json`
-- `assets/js/site-qa-deployment-check.js`
-- `.gitattributes`
-- `COMMIT_MESSAGE.md`
+## Recommended workflow
 
-## Installation
+1. Copy this package into the root of the ucaism.org repository.
+2. Commit and push with the included commit message.
+3. Wait for GitHub Pages deployment to complete.
+4. Open the live site and check each URL in `docs/final-live-url-checklist.md`.
+5. Use `docs/final-issue-log-template.md` to record problems.
+6. Fix only real issues found on the live site.
+7. Avoid adding new sections or features during this final QA phase.
 
-Copy the contents of this folder into the root of the existing `ucaism.org` repository. Do not delete existing production pages. Commit and push through GitHub Desktop.
+## Final principle
+
+From this point forward, UCAISM.org should move from expansion mode to editorial maintenance mode.
