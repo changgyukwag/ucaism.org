@@ -1,0 +1,108 @@
+{
+  "phase": "F-2",
+  "title": "Navigation Consolidation",
+  "principle": "Keep the top navigation simple, group specialist research pages under clear institutional categories, and avoid overcrowding the header.",
+  "topLevel": [
+    {
+      "label": "Home",
+      "href": "/",
+      "role": "entry point"
+    },
+    {
+      "label": "Research",
+      "href": "/research-library/",
+      "role": "research hub",
+      "children": [
+        {
+          "label": "Research Library",
+          "href": "/research-library/"
+        },
+        {
+          "label": "Foundation Papers",
+          "href": "/foundation-papers/"
+        },
+        {
+          "label": "Policy Briefs",
+          "href": "/policy-briefs/"
+        },
+        {
+          "label": "Working Papers",
+          "href": "/working-papers/"
+        },
+        {
+          "label": "Citation Center",
+          "href": "/citation-center/"
+        }
+      ]
+    },
+    {
+      "label": "Books",
+      "href": "/books/",
+      "role": "book platform",
+      "children": [
+        {
+          "label": "Open Wins",
+          "href": "/open-wins/"
+        },
+        {
+          "label": "Intelligent Capitalism",
+          "href": "/intelligent-capitalism/"
+        },
+        {
+          "label": "Downloads",
+          "href": "/downloads/"
+        }
+      ]
+    },
+    {
+      "label": "Insights",
+      "href": "/news-insights/",
+      "role": "updates and essays",
+      "children": [
+        {
+          "label": "News & Insights",
+          "href": "/news-insights/"
+        },
+        {
+          "label": "Newsletter",
+          "href": "/newsletter/"
+        },
+        {
+          "label": "Events",
+          "href": "/events/"
+        }
+      ]
+    },
+    {
+      "label": "Media",
+      "href": "/media-kit/",
+      "role": "press and speaking resources",
+      "children": [
+        {
+          "label": "Media Kit",
+          "href": "/media-kit/"
+        },
+        {
+          "label": "Media Center",
+          "href": "/media/"
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "href": "/global-community/",
+      "role": "global engagement",
+      "children": [
+        {
+          "label": "Global Community",
+          "href": "/global-community/"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact/"
+        }
+      ]
+    }
+  ],
+  "implementation": "Use the consolidated snippet as the reference header. Apply page by page after checking existing class names in the live site."
+}

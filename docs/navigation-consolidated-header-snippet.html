@@ -1,0 +1,69 @@
+<!-- Phase F-2 consolidated navigation reference snippet.
+     Add the CSS link in <head> and the JS script before </body>.
+     Adapt class names only if your current site header already has equivalent classes. -->
+<link rel="stylesheet" href="/assets/css/phase-f-navigation.css">
+
+<header class="ucaism-nav-shell" data-ucaism-nav>
+  <div class="ucaism-nav-inner">
+    <a class="ucaism-brand-link" href="/" aria-label="UCAISM.org home">
+      <span class="ucaism-brand-mark" aria-hidden="true">U</span>
+      <span>UCAISM Global Initiative</span>
+    </a>
+
+    <button class="ucaism-mobile-toggle" type="button" data-nav-mobile-toggle aria-expanded="false" aria-controls="ucaism-primary-nav">
+      Menu
+    </button>
+
+    <nav class="ucaism-primary-nav" id="ucaism-primary-nav" aria-label="Primary navigation">
+      <a class="ucaism-nav-link" href="/">Home</a>
+
+      <div class="ucaism-nav-item" data-nav-dropdown data-open="false">
+        <button class="ucaism-nav-button" type="button" aria-expanded="false">Research</button>
+        <div class="ucaism-nav-menu" role="menu">
+          <a href="/research-library/">Research Library</a>
+          <a href="/foundation-papers/">Foundation Papers</a>
+          <a href="/policy-briefs/">Policy Briefs</a>
+          <a href="/working-papers/">Working Papers</a>
+          <a href="/citation-center/">Citation Center</a>
+        </div>
+      </div>
+
+      <div class="ucaism-nav-item" data-nav-dropdown data-open="false">
+        <button class="ucaism-nav-button" type="button" aria-expanded="false">Books</button>
+        <div class="ucaism-nav-menu" role="menu">
+          <a href="/books/">Books Center</a>
+          <a href="/open-wins/">Open Wins</a>
+          <a href="/intelligent-capitalism/">Intelligent Capitalism</a>
+          <a href="/downloads/">Downloads</a>
+        </div>
+      </div>
+
+      <div class="ucaism-nav-item" data-nav-dropdown data-open="false">
+        <button class="ucaism-nav-button" type="button" aria-expanded="false">Insights</button>
+        <div class="ucaism-nav-menu" role="menu">
+          <a href="/news-insights/">News &amp; Insights</a>
+          <a href="/newsletter/">Newsletter</a>
+          <a href="/events/">Events</a>
+        </div>
+      </div>
+
+      <div class="ucaism-nav-item" data-nav-dropdown data-open="false">
+        <button class="ucaism-nav-button" type="button" aria-expanded="false">Media</button>
+        <div class="ucaism-nav-menu" role="menu">
+          <a href="/media-kit/">Media Kit</a>
+          <a href="/media/">Media Center</a>
+        </div>
+      </div>
+
+      <div class="ucaism-nav-item" data-nav-dropdown data-open="false">
+        <button class="ucaism-nav-button" type="button" aria-expanded="false">Community</button>
+        <div class="ucaism-nav-menu" role="menu">
+          <a href="/global-community/">Global Community</a>
+          <a href="/contact/">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script src="/assets/js/navigation-menu.js" defer></script>

@@ -1,0 +1,148 @@
+/* Phase F-2 Navigation Consolidation
+   Additive navigation helpers for UCAISM.org.
+   These rules are safe to add without removing the existing design system. */
+
+.ucaism-nav-shell {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--ucaism-line, #e5e7eb);
+}
+
+.ucaism-nav-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ucaism-brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ucaism-ink, #111827);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.ucaism-brand-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: inline-grid;
+  place-items: center;
+  background: linear-gradient(135deg, #0e1627, #173b6c);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.ucaism-primary-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ucaism-nav-item { position: relative; }
+
+.ucaism-nav-link,
+.ucaism-nav-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 11px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ucaism-muted, #4b5563);
+  font: inherit;
+  font-size: 0.94rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ucaism-nav-link:hover,
+.ucaism-nav-button:hover,
+.ucaism-nav-link:focus-visible,
+.ucaism-nav-button:focus-visible {
+  color: var(--ucaism-ink, #111827);
+  background: var(--ucaism-soft, #f3f4f6);
+  outline: none;
+}
+
+.ucaism-nav-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 230px;
+  padding: 8px;
+  border: 1px solid var(--ucaism-line, #e5e7eb);
+  border-radius: 16px;
+  background: var(--ucaism-surface, #fff);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+  display: none;
+}
+
+.ucaism-nav-item[data-open="true"] .ucaism-nav-menu { display: block; }
+
+.ucaism-nav-menu a {
+  display: block;
+  padding: 10px 11px;
+  border-radius: 10px;
+  color: var(--ucaism-muted, #4b5563);
+  text-decoration: none;
+  font-size: 0.93rem;
+}
+
+.ucaism-nav-menu a:hover,
+.ucaism-nav-menu a:focus-visible {
+  background: var(--ucaism-soft, #f3f4f6);
+  color: var(--ucaism-ink, #111827);
+  outline: none;
+}
+
+.ucaism-mobile-toggle { display: none; }
+
+@media (max-width: 860px) {
+  .ucaism-nav-inner { align-items: flex-start; }
+  .ucaism-mobile-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--ucaism-line, #e5e7eb);
+    border-radius: 999px;
+    padding: 8px 12px;
+    background: var(--ucaism-surface, #fff);
+  }
+  .ucaism-primary-nav {
+    display: none;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: 64px;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px;
+    border: 1px solid var(--ucaism-line, #e5e7eb);
+    border-radius: 18px;
+    background: var(--ucaism-surface, #fff);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+  }
+  .ucaism-nav-shell[data-mobile-open="true"] .ucaism-primary-nav { display: flex; }
+  .ucaism-nav-item { width: 100%; }
+  .ucaism-nav-link,
+  .ucaism-nav-button { width: 100%; justify-content: space-between; }
+  .ucaism-nav-menu {
+    position: static;
+    display: none;
+    min-width: 0;
+    margin: 4px 0 8px;
+    box-shadow: none;
+  }
+}

@@ -1,21 +1,26 @@
-# UCAISM.org — Phase F-1 Integration & Cleanup Foundation
+# UCAISM.org — Phase F-2 Navigation Consolidation
 
-This package begins Phase F: stabilizing and consolidating the expanded UCAISM.org platform after Phases D and E.
+This package adds a safe, additive navigation consolidation layer after the Phase D and Phase E expansion.
 
-## What this package does
+## Included files
 
-- Adds a Phase F integration and cleanup plan.
-- Adds a navigation consolidation guide.
-- Adds a priority map for applying Phase E head metadata safely.
-- Adds a site stabilization checklist.
-- Adds a structured page inventory for future QA and maintenance.
-- Adds an optional browser-console health check script.
-- Preserves LF line-ending normalization through `.gitattributes`.
+- `docs/navigation-consolidated-header-snippet.html`
+- `docs/navigation-migration-checklist.md`
+- `docs/footer-consolidation-guide.md`
+- `data/navigation-structure.json`
+- `assets/css/phase-f-navigation.css`
+- `assets/js/navigation-menu.js`
+- `.gitattributes`
+- `COMMIT_MESSAGE.md`
 
-## Install
+## Use
 
-Copy the contents of this folder into the root of the existing `ucaism.org` GitHub Pages repository. Overwrite same-named files only when prompted. Do not delete existing HTML pages.
+Copy the package contents into the repository root. This package does not delete or overwrite existing page content. It provides a consolidated navigation snippet, CSS, JS, and documentation for applying the new menu structure safely.
 
-## Recommended next step
+## Recommended top navigation
 
-Phase F-2 — Navigation Consolidation.
+Home / Research / Books / Insights / Media / Community
+
+## Deploy
+
+Commit and push through GitHub Desktop after checking the changed files.
