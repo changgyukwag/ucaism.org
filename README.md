@@ -1,29 +1,26 @@
-# UCAISM.org — Phase D-4 Working Papers
+# UCAISM.org Phase D-5 — Media Kit
 
-This package adds the Phase D-4 Working Papers layer to the UCAISM.org GitHub Pages site.
+This package adds a dedicated Media Kit page to the UCAISM.org GitHub Pages site.
 
 ## Files included
 
-- `.gitattributes`
-- `working-papers/index.html`
+- `media-kit/index.html`
 - `assets/css/phase-d-research.css`
-- `assets/js/working-papers.js`
-- `data/working-papers.json`
+- `assets/js/media-kit.js`
+- `data/media-kit.json`
+- `.gitattributes`
 - `docs/navigation-integration-snippet.html`
 - `COMMIT_MESSAGE.md`
 
-## Installation
+## Install
 
-1. Unzip this package.
-2. Copy the contents of `ucaism_phase_d4_working_papers` into the root of the `ucaism.org` repository.
-3. Overwrite existing files when prompted.
-4. Do not delete existing site files.
-5. Confirm that `.gitattributes` remains in the repository root.
-6. In GitHub Desktop, review the changed files.
-7. Commit with the summary and description in `COMMIT_MESSAGE.md`.
-8. Push to GitHub.
-9. Visit `https://ucaism.org/working-papers/` after deployment.
+1. Copy the contents of this folder into the root of the existing `ucaism.org` repository.
+2. Overwrite matching files when prompted.
+3. Do not delete existing site files.
+4. Confirm that `.gitattributes` remains at the repository root.
+5. Review changes in GitHub Desktop.
+6. Commit and push.
 
-## Notes
+## Test URL
 
-This phase is additive. It preserves the existing GitHub Pages structure and extends the Phase D research CSS without requiring a backend, database, build system, or external dependency.
+https://ucaism.org/media-kit/

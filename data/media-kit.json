@@ -1,0 +1,46 @@
+{
+  "title": "Media Kit",
+  "organization": "UCAISM Global Initiative",
+  "url": "https://ucaism.org/media-kit/",
+  "status": "Phase D-5 seed data",
+  "resources": [
+    {
+      "type": "Institutional Profile",
+      "title": "UCAISM Global Initiative",
+      "status": "official profile"
+    },
+    {
+      "type": "Author Bio",
+      "title": "Chang-Gyu Kwag",
+      "status": "short bio"
+    },
+    {
+      "type": "Book Overview",
+      "title": "Open Wins: The New Enlightenment",
+      "status": "book overview"
+    },
+    {
+      "type": "Download Placeholder",
+      "title": "One-Page Institutional Profile",
+      "status": "placeholder"
+    },
+    {
+      "type": "Download Placeholder",
+      "title": "Author Bio Sheet",
+      "status": "placeholder"
+    },
+    {
+      "type": "Download Placeholder",
+      "title": "Logo & Brand Assets",
+      "status": "placeholder"
+    }
+  ],
+  "suggested_topics": [
+    "Individual sovereignty in the age of AI",
+    "Platform power as institutional power",
+    "Open rails and digital public infrastructure",
+    "Fiduciary data governance",
+    "Intelligent Capitalism and the human dividend",
+    "The New Enlightenment as institutional architecture"
+  ]
+}

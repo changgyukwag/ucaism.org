@@ -1,13 +1,11 @@
-# Commit Summary
+Commit Summary:
+Add Phase D-5 Media Kit
 
-Add Phase D-4 Working Papers
-
-# Commit Description
-
-- Added a dedicated Working Papers hub for the UCAISM.org global research platform.
-- Created a pre-publication research layer for evolving UCAISM arguments, technical notes, empirical concepts, and institutional design drafts.
-- Added initial working paper tracks for theory, AI governance, digital public infrastructure, platform power, and Intelligent Capitalism.
-- Added static filtering by research track while preserving GitHub Pages compatibility.
-- Extended the Phase D research stylesheet with additive Working Papers components and LF line endings.
-- Added structured seed data for future PDF links, abstracts, version history, citations, and Research Library integration.
-- Included an optional navigation snippet for safely adding Working Papers to the site menu.
+Commit Description:
+- Added a dedicated Media Kit page for the UCAISM.org global research and author platform.
+- Created a professional press-resource layer for journalists, editors, event organizers, podcasts, universities, and research institutions.
+- Added institutional profile, author profile, book overview, core messages, suggested interview topics, and media download categories.
+- Extended the Phase D research stylesheet with additive Media Kit components while preserving the existing design system.
+- Added structured seed data for future media assets, downloadable PDFs, approved images, brand files, and press resources.
+- Preserved GitHub Pages compatibility and LF line-ending normalization through .gitattributes.
+- Included an optional navigation snippet for safely adding Media Kit to the site menu.
