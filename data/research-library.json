@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Open Wins: The New Enlightenment",
+    "type": "Book",
+    "status": "Published / Active",
+    "year": "2026",
+    "topics": ["UCAISM", "AI Governance", "Platform Economy", "Individual Sovereignty"],
+    "url": "/books/open-wins/"
+  },
+  {
+    "title": "Intelligent Capitalism",
+    "type": "Book Project",
+    "status": "Forthcoming",
+    "year": "Forthcoming",
+    "topics": ["Intelligent Capitalism", "The Third Architecture", "Political Economy"],
+    "url": "/books/intelligent-capitalism/"
+  },
+  {
+    "title": "UCAISM: Model, Movement, Ideology",
+    "type": "Foundation Paper",
+    "status": "Planned",
+    "year": "Planned",
+    "topics": ["Conceptual Architecture", "New Enlightenment", "Individual Sovereignty"],
+    "url": "/foundation-papers/"
+  },
+  {
+    "title": "The Sovereignty Gap",
+    "type": "Foundation Paper",
+    "status": "Planned",
+    "year": "Planned",
+    "topics": ["Digital Sovereignty", "Institutional Design", "AI Governance"],
+    "url": "/foundation-papers/"
+  },
+  {
+    "title": "AI Fiduciary Governance",
+    "type": "Policy Brief",
+    "status": "Planned",
+    "year": "Planned",
+    "topics": ["Policy", "AI Governance", "Fiduciary Code"],
+    "url": "/policy-briefs/"
+  },
+  {
+    "title": "Open Rails for Sovereign Markets",
+    "type": "Policy Brief",
+    "status": "Planned",
+    "year": "Planned",
+    "topics": ["Digital Public Infrastructure", "Interoperability", "Sovereign Markets"],
+    "url": "/policy-briefs/"
+  },
+  {
+    "title": "Dignity Index: Measurement Framework",
+    "type": "Working Paper",
+    "status": "Planned",
+    "year": "Planned",
+    "topics": ["Measurement", "Dignity Index", "Agency"],
+    "url": "/working-papers/"
+  },
+  {
+    "title": "UCAISM Media Kit",
+    "type": "Media Resource",
+    "status": "Planned",
+    "year": "Planned",
+    "topics": ["Media", "Press", "Institutional Identity"],
+    "url": "/media-kit/"
+  }
+]
