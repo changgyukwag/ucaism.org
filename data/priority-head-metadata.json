@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "UCAISM Global Initiative",
+    "baseUrl": "https://ucaism.org/",
+    "socialImage": "https://ucaism.org/assets/images/social/ucaism-social-card.svg"
+  },
+  "priorityPages": [
+    {
+      "slug": "/",
+      "title": "UCAISM Global Initiative | Individual Sovereignty in the Age of AI",
+      "description": "UCAISM Global Initiative is an independent research and public-education initiative founded by Chang-Gyu Kwag for individual sovereignty in the age of AI.",
+      "schemaType": "WebSite + ResearchOrganization + Person",
+      "priority": 1
+    },
+    {
+      "slug": "/research-library/",
+      "title": "Research Library | UCAISM Global Initiative",
+      "description": "Explore books, foundation papers, policy briefs, working papers, and research resources from UCAISM Global Initiative.",
+      "schemaType": "CollectionPage",
+      "priority": 1
+    },
+    {
+      "slug": "/foundation-papers/",
+      "title": "Foundation Papers | UCAISM Global Initiative",
+      "description": "Foundation Papers from UCAISM Global Initiative develop the core architecture of UCAISM, individual sovereignty, and Intelligent Capitalism.",
+      "schemaType": "CollectionPage",
+      "priority": 1
+    },
+    {
+      "slug": "/policy-briefs/",
+      "title": "Policy Briefs | UCAISM Global Initiative",
+      "description": "Policy Briefs translate UCAISM research into practical guidance for AI governance, platform reform, data sovereignty, and digital public infrastructure.",
+      "schemaType": "CollectionPage",
+      "priority": 1
+    },
+    {
+      "slug": "/working-papers/",
+      "title": "Working Papers | UCAISM Global Initiative",
+      "description": "Working Papers from UCAISM Global Initiative present pre-publication research on UCAISM, AI governance, platform power, and Intelligent Capitalism.",
+      "schemaType": "CollectionPage",
+      "priority": 1
+    }
+  ]
+}

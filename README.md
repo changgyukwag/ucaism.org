@@ -1,15 +1,27 @@
-# UCAISM.org — Phase F-3 Head Metadata Integration Pass
+# UCAISM.org — Phase F-4 Priority Page Head Integration
 
-This package provides a controlled integration layer for applying SEO, Schema.org, Open Graph, Twitter Cards, and hreflang metadata to UCAISM.org pages.
-
-## Install
-
-Copy the contents of this folder into the root of the existing `ucaism.org` GitHub Pages repository. Overwrite matching files when prompted. Do not delete existing HTML pages.
+This package adds a controlled integration kit for applying SEO, Schema.org, Open Graph, Twitter Cards, and hreflang metadata to the highest-priority UCAISM.org pages.
 
 ## What this phase does
 
-This phase does not automatically rewrite every HTML page. It provides page-specific metadata maps, reusable snippets, and QA tooling so metadata can be integrated safely page by page.
+Phase F-4 does not overwrite existing HTML automatically. It provides production-ready `<head>` snippets and a priority integration checklist so the site can be updated safely page by page.
 
-## Recommended next action
+## Files included
 
-Start with the homepage, then Research Library, Foundation Papers, Policy Briefs, and Working Papers.
+- `docs/priority-page-head-integration-guide.md`
+- `docs/priority-head-snippets.html`
+- `docs/priority-head-integration-checklist.md`
+- `docs/priority-head-page-map.md`
+- `data/priority-head-metadata.json`
+- `assets/js/priority-head-health-check.js`
+- `.gitattributes`
+- `COMMIT_MESSAGE.md`
+
+## Recommended use
+
+1. Copy this package into the repository root.
+2. Open `docs/priority-head-snippets.html`.
+3. Copy the appropriate snippet into the `<head>` of the matching page.
+4. Remove any duplicate title, description, canonical, OG, Twitter, or JSON-LD tags.
+5. Test the page locally and after GitHub Pages deployment.
+6. Commit and push.
