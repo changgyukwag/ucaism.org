@@ -1,10 +1,5 @@
-# UCAISM.org Phase C-6.3
+# UCAISM.org — Final Global Revision
 
-Improved header visibility and institutional branding.
+Final institutional design, accessibility, SEO, structured data, responsive navigation, conversion, and performance-oriented polish.
 
-- Enlarged and strengthened the UCAISM logo
-- Increased navigation size and weight
-- Changed navigation color to institutional navy
-- Added hover and active-page gold underline states
-- Increased header spacing and separation from page content
-- Preserved responsive behavior for smaller screens
+IMPORTANT: This is a patch-only package. It intentionally excludes assets/images so the currently approved Intelligent Capitalism cover and all other approved images are preserved.
