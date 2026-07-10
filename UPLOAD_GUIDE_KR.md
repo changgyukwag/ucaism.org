@@ -3,14 +3,15 @@
 3. GitHub Desktop에서 변경 파일을 확인합니다.
 4. 아래 Summary와 Description을 입력하고 Commit to main을 누릅니다.
 5. Push origin을 누릅니다.
-6. 약 1분 후 ucaism.org와 ucaism.org/open-wins/에서 Ctrl+F5로 확인합니다.
+6. 약 1분 후 ucaism.org에서 Ctrl+F5로 확인합니다.
 
 Summary:
-Phase C-6.2: Add eBook and Paperback purchase buttons
+Phase C-6.3: Improve header and navigation visibility
 
 Description:
-- Added separate Amazon purchase buttons for Kindle eBook and Paperback
-- Updated the homepage hero section
-- Updated the Open Wins page and availability heading
-- Updated Publications Center and Books page
-- Opened Amazon purchase links in a new browser tab
+- Enlarged and strengthened the UCAISM header logo
+- Increased navigation font size and weight
+- Changed navigation color to institutional navy
+- Added hover and active-page gold underline states
+- Improved header spacing and visual separation
+- Preserved responsive behavior
