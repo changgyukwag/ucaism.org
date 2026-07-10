@@ -1,5 +1,8 @@
-# UCAISM.org — Final Global Revision
+# UCAISM.org — Intelligent Capitalism Cover Restoration
 
-Final institutional design, accessibility, SEO, structured data, responsive navigation, conversion, and performance-oriented polish.
+This targeted patch restores the approved Intelligent Capitalism cover and updates the Intelligent Capitalism page's social and structured metadata.
 
-IMPORTANT: This is a patch-only package. It intentionally excludes assets/images so the currently approved Intelligent Capitalism cover and all other approved images are preserved.
+- Approved image dimensions: 1024 × 1535px
+- Canonical website path: assets/images/intelligent-capitalism-cover.png
+- Home, Books, Publications, and Intelligent Capitalism pages already reference this canonical file.
+- No Open Wins cover, author photo, logo, CSS, or JavaScript files are included.
