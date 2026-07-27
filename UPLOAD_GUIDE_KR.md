@@ -1,23 +1,19 @@
-Intelligent Capitalism 최신 승인 표지 복원 방법
+UCAISM 공식 헤더 로고 교체 방법
 
 1. ZIP 파일을 압축 해제합니다.
-2. 압축 해제 폴더 안의 assets 폴더와 intelligent-capitalism 폴더를 문서 > GitHub > ucaism.org에 덮어씁니다.
-3. GitHub Desktop에서 다음 2개 변경만 확인합니다.
-   - assets/images/intelligent-capitalism-cover.png
-   - intelligent-capitalism/index.html
-4. Commit 후 Push origin을 누릅니다.
-5. 1~3분 뒤 다음 페이지에서 Ctrl+F5로 확인합니다.
-   - ucaism.org
-   - ucaism.org/books/
-   - ucaism.org/publications/
-   - ucaism.org/intelligent-capitalism/
+2. 압축 해제 폴더 안의 assets 폴더를 문서 > GitHub > ucaism.org에 덮어씁니다.
+3. GitHub Desktop에서 다음 파일만 변경되었는지 확인합니다.
+   - assets/images/ucaism-header-logo.svg
+   - assets/images/ucaism-header-logo.png
+   - assets/css/site.css
+4. Commit to main을 누른 뒤 Push origin을 누릅니다.
+5. 1~3분 뒤 ucaism.org에서 Ctrl+F5로 확인합니다.
 
 Summary:
-Restore approved Intelligent Capitalism cover
+Replace website header with official UCAISM logo
 
 Description:
-- Restored the latest approved Intelligent Capitalism cover
-- Preserved the canonical image filename used across the website
-- Updated Open Graph and Twitter image metadata
-- Updated Intelligent Capitalism structured book data
-- Left all other approved images and website code unchanged
+- Replaced the website header logo with the approved UCAISM Global Initiative logo
+- Adapted the header to a premium navy institutional style
+- Improved logo visibility and navigation contrast
+- Preserved all book covers, photos, content, and metadata

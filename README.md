@@ -1,8 +1,7 @@
-# UCAISM.org — Intelligent Capitalism Cover Restoration
+# UCAISM.org — Official Header Logo Replacement
 
-This targeted patch restores the approved Intelligent Capitalism cover and updates the Intelligent Capitalism page's social and structured metadata.
+This targeted patch replaces the website header logo with the approved UCAISM Global Initiative logo and adapts the header styling to its navy background.
 
-- Approved image dimensions: 1024 × 1535px
-- Canonical website path: assets/images/intelligent-capitalism-cover.png
-- Home, Books, Publications, and Intelligent Capitalism pages already reference this canonical file.
-- No Open Wins cover, author photo, logo, CSS, or JavaScript files are included.
+- Source logo dimensions: 1093 × 437px
+- Existing HTML references remain unchanged
+- No book covers, author photos, page content, JavaScript, or metadata are changed
