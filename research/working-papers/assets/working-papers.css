@@ -1,0 +1,18 @@
+:root{--navy:#0a1530;--ink:#102a50;--gold:#d6a72d;--paper:#fff;--soft:#f5f3ee;--line:#d8dde6;--muted:#5d6879}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.62 Arial,Helvetica,sans-serif}
+a{color:inherit}.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)}
+.topin{max-width:1120px;margin:auto;padding:34px 28px}.brand{font-weight:700;letter-spacing:.18em;font-size:13px}
+.nav{margin-top:15px;font-size:14px}.nav a{margin-right:22px;text-decoration:none;color:#d9dfeb}
+.hero{max-width:1120px;margin:auto;padding:68px 28px 45px}.kicker{font-size:13px;letter-spacing:.12em;font-weight:700;color:#8b6a17}
+h1,h2{font-family:Georgia,'Times New Roman',serif}h1{font-size:48px;line-height:1.08;margin:12px 0 18px}h2{font-size:29px;line-height:1.18;margin:7px 0}
+.lede{max-width:860px;font-size:19px;color:#38475f}.program{max-width:1120px;margin:auto;padding:0 28px 35px}
+.programbox{background:var(--soft);border-left:4px solid var(--gold);padding:20px 24px;max-width:900px}
+.list{max-width:1120px;margin:auto;padding:0 28px 80px}.paper{border-top:1px solid var(--line);padding:36px 0 40px}
+.wpno{font-size:13px;font-weight:700;letter-spacing:.09em;color:#8b6a17}.subtitle{font:italic 18px/1.45 Georgia,serif;margin:8px 0}
+.meta{font-size:14px;color:var(--muted)}.status{display:inline-block;background:var(--soft);padding:7px 11px;font-size:13px;font-weight:700;margin:8px 0 14px}
+.abstract{max-width:900px}.buttons{margin-top:20px}.btn{display:inline-block;text-decoration:none;background:var(--ink);color:#fff;padding:10px 15px;margin-right:12px}.link{font-weight:700;text-decoration:none}
+.footer{background:#f8f9fb;border-top:1px solid var(--line);padding:28px}.footerin{max-width:1120px;margin:auto;color:var(--muted);font-size:13px}
+.detail{max-width:980px;margin:auto;padding:58px 28px 80px}.detail h1{font-size:42px}.facts{display:grid;grid-template-columns:170px 1fr;gap:8px 18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;margin:25px 0}.label{font-weight:700}
+.notice{background:var(--soft);border-left:4px solid var(--gold);padding:18px 20px;margin-top:30px}
+.cite{background:#f8f9fb;padding:18px;border:1px solid var(--line)}
+@media(max-width:700px){h1{font-size:36px}.detail h1{font-size:34px}.facts{grid-template-columns:1fr}.topin,.hero,.program,.list,.detail{padding-left:20px;padding-right:20px}}
