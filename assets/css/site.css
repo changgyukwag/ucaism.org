@@ -201,3 +201,63 @@ h1,h2,h3{font-family:var(--serif);line-height:1.08;margin:0 0 18px}h1{font-size:
     transform:translateY(-12px);
   }
 }
+
+
+/* Trilogy layout polish 2026-11-24 */
+.trilogy-card{
+  height:100%;
+}
+.trilogy-card > .buttons,
+.trilogy-card-actions{
+  margin-top:auto;
+  padding-top:12px;
+}
+.trilogy-card > a:not(.button){
+  margin-top:auto;
+  font-family:var(--sans);
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.07em;
+  text-transform:uppercase;
+}
+.trilogy-publications{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+}
+.trilogy-publications .pub-card{
+  grid-template-columns:120px minmax(0,1fr);
+  gap:20px;
+  height:100%;
+}
+.trilogy-publications .pub-card img{
+  width:120px!important;
+  max-width:120px!important;
+}
+.trilogy-publications .buttons{
+  gap:9px;
+}
+.trilogy-publications .button{
+  font-size:11px;
+  padding:10px 12px;
+}
+@media(max-width:1180px){
+  .trilogy-publications{
+    grid-template-columns:1fr;
+  }
+  .trilogy-publications .pub-card{
+    grid-template-columns:150px minmax(0,1fr);
+  }
+  .trilogy-publications .pub-card img{
+    width:150px!important;
+    max-width:150px!important;
+  }
+}
+@media(max-width:640px){
+  .trilogy-publications .pub-card{
+    grid-template-columns:1fr;
+  }
+  .trilogy-publications .pub-card img{
+    width:190px!important;
+    max-width:190px!important;
+    margin:0 auto 6px;
+  }
+}
