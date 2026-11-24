@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const revealTargets = document.querySelectorAll(
-    ".section h2, .card, .program-card, .download-card, .pub-card, .resource-row, .feature-book"
+    ".section h2, .card, .program-card, .download-card, .pub-card, .resource-row, .feature-book, .trilogy-card"
   );
   revealTargets.forEach((el) => el.setAttribute("data-reveal", ""));
 
